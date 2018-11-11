@@ -1,14 +1,18 @@
-1. �ttekint�s
+1. Áttekintés
 
-2. V�gy�lomrendszer
+2. Vágyálomrendszer(15-20 sor)
+	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
+	 -Mi lehet a kérdés?- Megkapod a válaszokat találd ki a kérdést!
+	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
+	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekitett szélű gombokkal rendelkezzen.
 
-3. K�vetelm�ny lista
+3. Követelmény lista
 
 4. Jelenlegi helyzet
 
-5. Jelenlegi �zleti folyamatok modellje
+5. Jelenlegi üzleti folyamatok modellje
 
-6. Ig�nyelt �zleti folyamatok modellje
+6. Igényelt üzleti folyamatok modellje
 
-7. Fogalomsz�t�r
+7. Fogalomszótár
 
