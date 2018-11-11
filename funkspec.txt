@@ -1,4 +1,4 @@
-1. Áttekintés
+1. ÃttekintÃ©s
 
 2. Terjedelem
 
@@ -6,14 +6,14 @@
 
 4. Jelenegi folyamatok modellje
 
-5. Igényelt folyamatok modellje
+5. IgÃ©nyelt folyamatok modellje
 
-6. Követelménylista
+6. KÃ¶vetelmÃ©nylista
 
-7. Képernyõtervek - Wireframe
+7. KÃ©pernyÃµtervek - Wireframe
 
 8. Adatmodell
 
-9. Használati esetek
+9. HasznÃ¡lati esetek
 
-10. Forgatókönyv
+10. ForgatÃ³kÃ¶nyv
