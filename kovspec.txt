@@ -5,6 +5,7 @@
 	 -Mi lehet a kérdés?- Megkapod a válaszokat találd ki a kérdést!
 	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
 	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekitett szélű gombokkal rendelkezzen.
+	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
 
 3. Követelmény lista
 
