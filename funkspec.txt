@@ -2,8 +2,11 @@
 
 2. Terjedelem
 
-3. Jelenlegi helyzet
-
+3. Jelenlegi helyzet(30-40 sor)
+	-hasonló szoftverek 
+	-mivel másabb a miénk
+	-miért fér be a piacra ( olcsóbb, ebben meg abban jobb)
+	-ha új problémát old meg részletezni hogy hogyan 
 4. Jelenegi folyamatok modellje
 
 5. Igényelt folyamatok modellje
