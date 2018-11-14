@@ -1,4 +1,4 @@
-﻿1. Áttekintés
+1. Áttekintés
 A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos akik nehezen tudják feldolgozni a száraz tananyagot.
 A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
 Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
@@ -15,6 +15,9 @@ a számára legalkalmasabbat.
 3. Követelmény lista
 
 4. Jelenlegi helyzet
+	Több oktatóprogram is van a piacon, ezek szinte minden területen oktatnak, korosztályonként változó nehézséggel, jó megoldást nyújthatnak otthoni, játékos tanulásra.
+	Ilyen például a Profi-Média Kft. Manó oktatójáték sorozata (lásd: http://www.profi-media.com/kateg-3-1-mano-oktatoprogramok.html). Sok témában, inkább a kisebb korosztálynak oktat, sok mesét, beszélő elemeket tartalmaz. Egyetlen hátránya, ami egyben a legnagyobb hogy csak CD formátumban, Windows alá jelent meg. Így sem egy böngészőben, sem tableten nem lehet játszani vele.
+	Ami nagyon ritka ezekben a programokban, az a tanár-diák szerep, csak egyszemélyes felhasználás, így a diákok elért eredményeit sem tárolja, ami tanórai kereteken belül lehet hátrány.
 
 5. Jelenlegi üzleti folyamatok modellje
 
