@@ -1,4 +1,9 @@
-1. Áttekintés
+﻿1. Áttekintés
+A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos akik nehezen tudják feldolgozni a száraz tananyagot.
+A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
+Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
+köré, hogy még több motivációt érjünk el a tanulóknál. A program rendelkezik több különféle játéklehetőséggel így mindenki megtalálhatja
+a számára legalkalmasabbat.
 
 2. Vágyálomrendszer(15-20 sor)
 	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
