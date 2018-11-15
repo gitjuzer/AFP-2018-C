@@ -33,8 +33,7 @@
 	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
 	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy tanár.
 	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
-	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
-	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
 
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
 		Igazgató:
@@ -51,7 +50,7 @@
 			 
 		Tanárok:
 			A tanárok hozzáférhetnek a diákok jegyeihez és addhatnak újjakat, de módosítani csak az adminok tehetik.
-			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, dolgozatokhoz stb.
+			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, versenyekhez stb.
 			A szűlöket értesíthetik / üzenhetnek nekik. Valamint közleményeket tehetnek fel az osztályuknak és szüleikhez.
 			A diákoknak írhatnak be figyelmeztetéseket, büntetéseket, és dicséreteket.
 
