@@ -1,3 +1,5 @@
+Követelmény specifikáció a Játékos oktatás projekthez.
+
 1. Áttekintés
 A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos akik nehezen tudják feldolgozni a száraz tananyagot.
 A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
@@ -29,6 +31,20 @@ a számára legalkalmasabbat.
 	4.üzleti folyamatok modellezése.
 
 6. Igényelt üzleti folyamatok modellje
+	Érték alapú ajánlat: 
+	a folyamatmenedzsment célok értékelése a maguk stratégiai összefüggéseivel;
+	az ügyfelek minőség, ár és egyéb követelmények szerinti értékelése;
+	a kitűzött célok átalakítása megvalósítható projekttervvé;
+	az elképzelt változtatások hozzáadott értékének értékelése.
+
+	Folyamat-innováció:
+	a folyamatleltározást és -rögzítést követően együttesen áttekintjük az iparági legjobb gyakorlatot;
+	a projekt team kreativitását felhasználva a folyamatkiválóság összemérési szempontjainak összeállítása.
+
+	Változáskezelés:
+	a folyamatmenedzsment projektek nagymértékű szervezeti és technikai változásokkal járnak, ezért figyelmes tervezést és bevezetést igényelnek. A változáskezelés feladatai közé tartozik: a belső és külső kommunikáció; igazodás a meglévő vállalati szervezeti szerkezetekhez, informatikai rendszerekhez és interfészekhez;
+	a felelősségek újra elosztása;
+	az új folyamatokhoz az oktatói állomány összeállítása és a folyamatmenedzsment eredmények mérése.
 
 7. Fogalomszótár
 
