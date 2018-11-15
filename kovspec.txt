@@ -13,6 +13,8 @@ a számára legalkalmasabbat.
 	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
 	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekitett szélű gombokkal rendelkezzen.
 	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
+	 Ezzel a programmal szeretnénk elérni hogy a tanulók -ha már úgy is a telefonjukon és a gépen lógnak- tanuljanak is valamit miközben szórakoztató tényekekkel bővül a tudásuk. Továbbá szüleik is kézben tudják tartani gyermekük iskolai teljesítményét.
+	 
 
 3. Követelmény lista
 
