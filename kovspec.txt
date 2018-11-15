@@ -15,6 +15,11 @@ a számára legalkalmasabbat. A program törekedjen a minél egyszerűbb kezelő
 	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
 
 3. Követelmény lista
+	Figyelemfelkeltő legyen a userek számára.
+	Ha kisgyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár/szülő tud kezelni/ellenőrizni.
+	Változatos legyen és ne monoton.
+	Lehessen testreszabni az adott user/userek számára.
+	Egymás tudását összemérő "versenyek" a jobb teljesítés vágy érdekében.
 
 4. Jelenlegi helyzet
 	Több oktatóprogram is van a piacon, ezek szinte minden területen oktatnak, korosztályonként változó nehézséggel, jó megoldást nyújthatnak otthoni, játékos tanulásra.

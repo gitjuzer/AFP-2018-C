@@ -5,17 +5,17 @@
 2. Terjedelem
 
 3. Jelenlegi helyzet
-	Rengetek hasonló szoftver létezik a földök különböző korosztályoknak. Ilyenek például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
+	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 4. Jelenegi folyamatok modellje
 
 5. Igényelt folyamatok modellje
 
 6. Követelménylista
 	Figyelemfelkeltő legyen a userek számára.
-	Ha ksigyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár tud kezelni/ellenőrizni
-	Változatos legyen és ne monoton
+	Ha kisgyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár tud kezelni/ellenőrizni.
+	Változatos legyen és ne legyen monoton.
 	Lehessen testreszabni az adott user/userek számára.
-	Egymás tudását összemérő "versenyek" a jobb teljesítés vágy érdekében.
+	Egymás tudását összemérő "versenyek" a jobb teljesítési vágy érdekében.
 
 7. Képernyõtervek - Wireframe
 
@@ -28,8 +28,8 @@
 9. Használati esetek:
 
 	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
-	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
-	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
+	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy tanár.
 	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
 
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
@@ -47,7 +47,7 @@
 			 
 		Tanárok:
 			A tanárok hozzáférhetnek a diákok jegyeihez és addhatnak újjakat, de módosítani csak az adminok tehetik.
-			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, dolgozatokhoz stb.
+			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, versenyekhez stb.
 			A szűlöket értesíthetik / üzenhetnek nekik. Valamint közleményeket tehetnek fel az osztályuknak és szüleikhez.
 			A diákoknak írhatnak be figyelmeztetéseket, büntetéseket, és dicséreteket.
 
