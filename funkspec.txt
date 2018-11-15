@@ -11,6 +11,11 @@
 5. Igényelt folyamatok modellje
 
 6. Követelménylista
+	Figyelemfelkeltő legyen a userek számára.
+	Ha ksigyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár tud kezelni/ellenőrizni
+	Változatos legyen és ne monoton
+	Lehessen testreszabni az adott user/userek számára.
+	Egymás tudását összemérő "versenyek" a jobb teljesítés vágy érdekében.
 
 7. Képernyõtervek - Wireframe
 
