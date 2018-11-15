@@ -1,4 +1,6 @@
-﻿1. Áttekintés
+﻿Funkcionális specifikáció a Játékos oktatás projekthez.
+
+1. Áttekintés
 
 2. Terjedelem
 
@@ -15,5 +17,16 @@
 8. Adatmodell
 
 9. Használati esetek
+	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
+	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
+	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+	Felhasználók hozzáférései és mire fogják majd használni a programot:
+		Igazgató:
+		Admin:
+		Tanárok:
+		Diákok:
+		Szülők:
+		stb.
 
 10. Forgatókönyv
