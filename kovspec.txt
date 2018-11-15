@@ -1,17 +1,17 @@
-Követelmény specifikáció a Játékos oktatás projekthez.
+﻿Követelmény specifikáció a Játékos oktatás projekthez.
 
 1. Áttekintés
-A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos akik nehezen tudják feldolgozni a száraz tananyagot.
+A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos, akik nehezen tudják feldolgozni a száraz tananyagot.
 A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
-Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas(Ha az iskola rendelkezik az ezt segítő eszközökkel). Akár külön jutalmazási rendszer is felépíthető az alkalmazás
+Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
 köré, hogy még több motivációt érjünk el a tanulóknál. A program rendelkezik több különféle játéklehetőséggel így mindenki megtalálhatja
-a számára legalkalmasabbat. A program törekedjen a minél egyszerűbb kezelőfelületre, hogy a iskolában oktató idősebb generáció is könnyen megértse és tanítani tudjon vele.
+a számára legalkalmasabbat. A program könnyen kezelhető, így bárki hamar elsajátíthatja a használatát.
 
 2. Vágyálomrendszer(15-20 sor)
 	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
 	 -Mi lehet a kérdés?- Megkapod a válaszokat találd ki a kérdést!
 	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
-	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekitett szélű gombokkal rendelkezzen.
+	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekített szélű gombokkal rendelkezzen.
 	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
 
 3. Követelmény lista
@@ -27,7 +27,7 @@ a számára legalkalmasabbat. A program törekedjen a minél egyszerűbb kezelő
 	Ami nagyon ritka ezekben a programokban, az a tanár-diák szerep, csak egyszemélyes felhasználás, így a diákok elért eredményeit sem tárolja, ami tanórai kereteken belül lehet hátrány.
 
 5. Jelenlegi üzleti folyamatok modellje
-	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve 			meghatározzuk azokat a folyamatokat,
+	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat,
 	amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a következő tevékenységeket szoktuk elvégezni:
 
 	1.üzleti szereplő és munkatárs elemzés,
@@ -39,7 +39,7 @@ a számára legalkalmasabbat. A program törekedjen a minél egyszerűbb kezelő
 	Érték alapú ajánlat: 
 	a folyamatmenedzsment célok értékelése a maguk stratégiai összefüggéseivel;
 	az ügyfelek minőség, ár és egyéb követelmények szerinti értékelése;
-	a kitűzött célok átalakítása megvalósítható projekttervvé;
+	a kitűzött célok átalakítása megvalósítható projekttervé;
 	az elképzelt változtatások hozzáadott értékének értékelése.
 
 	Folyamat-innováció:
