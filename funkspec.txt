@@ -16,6 +16,8 @@
 	Változatos legyen és ne legyen monoton.
 	Lehessen testreszabni az adott user/userek számára.
 	Egymás tudását összemérő "versenyek" a jobb teljesítési vágy érdekében.
+	GDPR szabályoknak való megfelelés.
+	Vonatkozó jogszabályoknak való megfelelés.
 
 7. Képernyõtervek - Wireframe
 
@@ -28,13 +30,10 @@
 9. Használati esetek:
 
 	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
-<<<<<<< HEAD
 	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
 	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy tanár.
-=======
 	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
 	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
->>>>>>> 81bc8d893dde309e3a5e50cb092cca225e7cdd71
 	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
 
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
