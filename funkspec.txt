@@ -23,7 +23,13 @@
 	Felhasználók tábla, felhasználók fontosabb adatai
 		id, Felhasználónév, Teljes név, Email, Jogkör, Regisztráció ideje, Jelszó
 	Érdemjegyek tábla
-		id, Felh_id(Fe táblából), Pontszám, Érdemjegy, Időbélyeg
+		id, Felh_id(Felhasználók táblából), Pontszám, Érdemjegy, Időbélyeg
+	Dicséretek tábla
+		id, Felh_id(Felhasználók táblából), Dicséret leírása, Időbélyeg
+	Büntetések tábla
+		id, Felh_id(Felhasználók táblából), Büntetés leírása, Adó tanár, Időbélyeg
+	Figyelmeztetés tábla
+		id, Felh_id(Felhasználók táblából), Figyelmeztetés leírása, Adó tanár, Időbélyeg
 
 9. Használati esetek:
 
