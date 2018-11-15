@@ -27,6 +27,6 @@
 		Tanárok:
 		Diákok:
 		Szülők:
-		stb.
+		stb. 
 
 10. Forgatókönyv
