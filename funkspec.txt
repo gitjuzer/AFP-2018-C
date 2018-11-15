@@ -47,7 +47,7 @@
 			 
 		Tanárok:
 			A tanárok hozzáférhetnek a diákok jegyeihez és addhatnak újjakat, de módosítani csak az adminok tehetik.
-			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, dolgozatokhoz stb.
+			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, versenyekhez stb.
 			A szűlöket értesíthetik / üzenhetnek nekik. Valamint közleményeket tehetnek fel az osztályuknak és szüleikhez.
 			A diákoknak írhatnak be figyelmeztetéseket, büntetéseket, és dicséreteket.
 
