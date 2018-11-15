@@ -16,17 +16,45 @@
 
 8. Adatmodell
 
-9. Használati esetek
+9. Használati esetek:
+
 	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
-	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
+	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
 	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
 	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
 		Igazgató:
-		Admin:
+			Az igazgató megnézheti minden diák jegyét, valamint milyen dicséretett, büntetést adtak a tanárok.
+			Az igazgató az egyetlen aki adhat verseny részvételért díjat / dicséretett.
+			Közleményt tehet ki a mindenkinek, de lehet külön a tanároknak, diákoknak, vagy egyszerre a kettő.
+			Az adminokkal tud kommunikáni.
+			
+		Adminok:
+			Admin státusza a rendszergazdáknak és egyéb más informatikusnak van akik ott dolgoznak.
+			Az adminnak hozzákell tudni férnie a felhasználók listájához, azon belül a felhasználó neveket és jelszavakat tudja módosítani.
+			Ezen kívül az admin felelős a diákok jegyeinek javításában amennyiben a tanár valamilyen módon rosszul írja azt be.
+			Az admin felelős a többi felhasználót felvenni a rendszerbe. Továbbá felelős a rendszer normális működését fenttartani.
+			 
 		Tanárok:
+			A tanárok hozzáférhetnek a diákok jegyeihez és addhatnak újjakat, de módosítani csak az adminok tehetik.
+			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, dolgozatokhoz stb.
+			A szűlöket értesíthetik / üzenhetnek nekik. Valamint közleményeket tehetnek fel az osztályuknak és szüleikhez.
+			A diákoknak írhatnak be figyelmeztetéseket, büntetéseket, és dicséreteket.
+
 		Diákok:
+			A diákok megnézhetik a kapott jegyeiket, büntetéseket, figyelmeztetéseket, dicséreteket, mindent amit a tanár beírt.
+			A diákok adhatnak be házi feladatot a rendszeren keresztül, vagy házidolgozatott.
+			Beszélhetnek a tanárokkal és, csak a diák saját szüleivel, és láthattják a tanárok álltal kitett közleményeket.
+			
 		Szülők:
-		stb. 
+			A szülők megnézhetik a gyerekük osztályzatait.
+			Beszélhetnek a tanárokkal és, csak a saját gyerekükkel. 
+			Láthatják a tanárok álltal kitett közleményeket.
+
+		Ügyintézők (titkárok):
+			Képesek egy közleményt és üzenetett küldeni mindenkinek. Ezeket megjelölhetik egy [FONTOS] cimkével.
+			Ha valami baj van a rendszerrel, vagy egyéb más dologgal, akkor az ügyintézőhöz fordul a többi felhasználó.
+			Ha az ügyintéző nem tudja megoldani a hibát, akkor az ügyintéző az egyetlen az igazgatón kívül aki tud az adminokkal komunikálni.
 
 10. Forgatókönyv
