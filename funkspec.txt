@@ -15,6 +15,10 @@
 7. Képernyõtervek - Wireframe
 
 8. Adatmodell
+	Felhasználók tábla, felhasználók fontosabb adatai
+		id, Felhasználónév, Teljes név, Email, Jogkör, Regisztráció ideje, Jelszó
+	Érdemjegyek tábla
+		id, Felh_id(Fe táblából), Pontszám, Érdemjegy, Időbélyeg
 
 9. Használati esetek
 	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
