@@ -1,9 +1,9 @@
 ﻿Követelmény specifikáció a Játékos oktatás projekthez.
 
 1. Áttekintés
-A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos akik nehezen tudják feldolgozni a száraz tananyagot.
+A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos, akik nehezen tudják feldolgozni a száraz tananyagot.
 A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
-Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas(Ha az iskola rendelkezik az ezt segítő eszközökkel). Akár külön jutalmazási rendszer is felépíthető az alkalmazás
+Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
 köré, hogy még több motivációt érjünk el a tanulóknál. A program rendelkezik több különféle játéklehetőséggel így mindenki megtalálhatja
 a számára legalkalmasabbat. A program törekedjen a minél egyszerűbb kezelőfelületre, hogy az iskolában oktató idősebb generáció is könnyen megértse és tanítani tudjon vele.
 
