@@ -1,12 +1,9 @@
-1. Áttekintés
+﻿1. Áttekintés
 
 2. Terjedelem
 
-3. Jelenlegi helyzet(30-40 sor)
-	-hasonló szoftverek 
-	-mivel másabb a miénk
-	-miért fér be a piacra ( olcsóbb, ebben meg abban jobb)
-	-ha új problémát old meg részletezni hogy hogyan 
+3. Jelenlegi helyzet
+	Rengetek hasonló szoftver létezik a földök különböző korosztályoknak. Ilyenek például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 4. Jelenegi folyamatok modellje
 
 5. Igényelt folyamatok modellje
