@@ -1,37 +1,82 @@
 ﻿Funkcionális specifikáció a Játékos oktatás projekthez.
 
 1. Áttekintés
-
+A program elsődleges célja az oktatás, méghozzá olyan formában ami egyszerre szórakoztatja a tanulót, ezáltal nagyobb hatást érünk el a
+mint a szokásos tankönyvi anyaggal. Az alkalmazás külön szerepkörökre osztja a felhasználókat. Minden szerepkörnek megvannak a sajátosságai
+amihez hozzáférhetnek. Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket, megjegyzéseket fűzhet hozzá
+vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz. A feladatsorokat
+nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
 2. Terjedelem
 
 3. Jelenlegi helyzet
-	Rengetek hasonló szoftver létezik a földök különböző korosztályoknak. Ilyenek például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
+	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 4. Jelenegi folyamatok modellje
 
 5. Igényelt folyamatok modellje
 
 6. Követelménylista
 	Figyelemfelkeltő legyen a userek számára.
-	Ha ksigyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár tud kezelni/ellenőrizni
-	Változatos legyen és ne monoton
+	Ha kisgyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár tud kezelni/ellenőrizni.
+	Változatos legyen és ne legyen monoton.
 	Lehessen testreszabni az adott user/userek számára.
-	Egymás tudását összemérő "versenyek" a jobb teljesítés vágy érdekében.
+	Egymás tudását összemérő "versenyek" a jobb teljesítési vágy érdekében.
+	GDPR szabályoknak való megfelelés.
+	Vonatkozó jogszabályoknak való megfelelés.
 
 7. Képernyõtervek - Wireframe
 
 8. Adatmodell
+	Felhasználók tábla, felhasználók fontosabb adatai
+		id, Felhasználónév, Teljes név, Email, Jogkör, Regisztráció ideje, Jelszó
+	Érdemjegyek tábla
+		id, Felh_id(Felhasználók táblából), Pontszám, Érdemjegy, Időbélyeg
+	Dicséretek tábla
+		id, Felh_id(Felhasználók táblából), Dicséret leírása, Időbélyeg
+	Büntetések tábla
+		id, Felh_id(Felhasználók táblából), Büntetés leírása, Adó tanár, Időbélyeg
+	Figyelmeztetés tábla
+		id, Felh_id(Felhasználók táblából), Figyelmeztetés leírása, Adó tanár, Időbélyeg
 
-9. Használati esetek
+9. Használati esetek:
+
 	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
-	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
-	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár.
-	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy tanár.
+	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
 		Igazgató:
-		Admin:
+			Az igazgató megnézheti minden diák jegyét, valamint milyen dicséretett, büntetést adtak a tanárok.
+			Az igazgató az egyetlen aki adhat verseny részvételért díjat / dicséretett.
+			Közleményt tehet ki a mindenkinek, de lehet külön a tanároknak, diákoknak, vagy egyszerre a kettő.
+			Az adminokkal tud kommunikáni.
+			
+		Adminok:
+			Admin státusza a rendszergazdáknak és egyéb más informatikusnak van akik ott dolgoznak.
+			Az adminnak hozzákell tudni férnie a felhasználók listájához, azon belül a felhasználó neveket és jelszavakat tudja módosítani.
+			Ezen kívül az admin felelős a diákok jegyeinek javításában amennyiben a tanár valamilyen módon rosszul írja azt be.
+			Az admin felelős a többi felhasználót felvenni a rendszerbe. Továbbá felelős a rendszer normális működését fenttartani.
+			 
 		Tanárok:
+			A tanárok hozzáférhetnek a diákok jegyeihez és addhatnak újjakat, de módosítani csak az adminok tehetik.
+			Csinálhatnak időpontokat pl.: dolgozatokhoz, kirándulásokhoz, versenyekhez stb.
+			A szűlöket értesíthetik / üzenhetnek nekik. Valamint közleményeket tehetnek fel az osztályuknak és szüleikhez.
+			A diákoknak írhatnak be figyelmeztetéseket, büntetéseket, és dicséreteket.
+
 		Diákok:
+			A diákok megnézhetik a kapott jegyeiket, büntetéseket, figyelmeztetéseket, dicséreteket, mindent amit a tanár beírt.
+			A diákok adhatnak be házi feladatot a rendszeren keresztül, vagy házidolgozatott.
+			Beszélhetnek a tanárokkal és, csak a diák saját szüleivel, és láthattják a tanárok álltal kitett közleményeket.
+			
 		Szülők:
-		stb. 
+			A szülők megnézhetik a gyerekük osztályzatait.
+			Beszélhetnek a tanárokkal és, csak a saját gyerekükkel. 
+			Láthatják a tanárok álltal kitett közleményeket.
+
+		Ügyintézők (titkárok):
+			Képesek egy közleményt és üzenetett küldeni mindenkinek. Ezeket megjelölhetik egy [FONTOS] cimkével.
+			Ha valami baj van a rendszerrel, vagy egyéb más dologgal, akkor az ügyintézőhöz fordul a többi felhasználó.
+			Ha az ügyintéző nem tudja megoldani a hibát, akkor az ügyintéző az egyetlen az igazgatón kívül aki tud az adminokkal komunikálni.
 
 10. Forgatókönyv

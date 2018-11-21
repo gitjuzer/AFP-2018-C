@@ -1,0 +1,97 @@
+A Rendszerterv Fajtái:
+
+A rendszerterv egy írásban rögzített specifikáció, amely leírja
+
+-mit (rendszer),
+-miért (rendszer célja),
+-hogyan (terv), 
+-mikor (időpont),
+-és miből (erőforrások)
+
+akarunk a jövőben létrehozni. Fontos, hogy reális legyen, azaz megvalósítható lépéseket írjon elő. A rendszerterv hasonló szerepet játszik a szoftverfejlesztésben, mint a tervrajz az építkezéseken, tehát elég részletesnek kell lennie, hogy ebből a programozók képesek legyenek megvalósítani a szoftvert. 
+A rendszerterv vagy új rendszert ír le, vagy egy meglévő átalakítását.
+Három fajta rendszertervet különböztetünk meg:
+
+-konceptuális (mit,miért),
+-nagyvonalú (mit, miért, hogyan, miből),
+-részletes (mit, miért, hogyan, miből, mikor).
+
+A  konceptuális  rendszerterv  röviden  írja  le,  mit  és  miért  akarunk  a  jövőben  létrehozni.  Egy rendszernek  több  változata  lehet,  amelyek  közül  választunk.  A követelményspecifikáció alapján jön létre. Része lehet az árajánlatnak.
+A  nagyvonalú  rendszerterv  a  mit  és  miért  részen  túl  kiegészül  egy  hogyan  és  miből  résszel,  azaz megadjuk,  hogy  milyen  lépéseket  kell  véghezvinni  és  az  egyes  lépésekhez  milyen  erőforrásokra  van 
+szükségünk.  Elegendő  nagyvonalakban  megadni  a  tervet,  mert  feltételezzük,  hogy  a  tervező  részt vesz a végrehajtásban, így a felmerülő kérdésekre tud válaszolni.
+
+A  nagyvonalú  rendszerterv  fontos  része  az  úgynevezett  megfeleltetés,  ami  megmutatja, hogy  a követelményspecifikációban felsorolt minden követelményhez van-e azt kielégítő lépés. A részletes rendszerterv a mit, miért, hogyan és miből részeken túl tartalmaz egy mikor részt is, azaz 
+megadja   a   lépések   idejét.   Az   időpont   lehet   pontos   vagy  csak   idő   intervallum.   Ezeket  olyan részletességgel adja meg, hogy a tervező részvétele nélkül is végrehajtható legyen.
+
+A Rendszerterv Elkészítése:
+
+Egy rendszerterv általában az alábbi fejezetekből és alfejezetekből áll:
+
+- A rendszer célja: Definiálja a rendszer célját. Gyakran leírjuk azt is, ami nem cél, hogy ezzel is tisztázzuk a feladat kört (scope), amit meg akarunk oldani.
+
+- Projekt terv: Itt soroljuk fel a rendszer létrehozásához rendelkezésre álló erőforrásokat. Ezek közül a két legfontosabb az emberek és az idő. Fontos tisztázni a felelősségi köröket. Itt adjuk meg az ütemterv alapján a mérföldköveket. Részei:
+
+  -Projekt szerepkörök, felelősségek
+  -Projekt munkások és felelősségeik
+  -Ütemterv
+  -Mérföldkövek
+
+-Üzleti   folyamatok   modellje:   Itt   adjuk   meg   a   támogatandó   vagy   kiváltandó   üzleti folyamatokat. Leírjuk az eseményeket, a felhasznált erőforrásokat, a folyamatok bemeneteit, kimeneteit, a szereplőket. A modell célja a megértés, így sok példát is tartalmazhat.
+Részei:
+  -Üzleti szereplők
+  -Üzleti folyamatok
+  -Üzleti entitások
+
+-Követelmények:   Itt   a   teljes   követelmény   listából   csak   azokat   soroljuk   fel,   amelyek megvalósítását   megcélozza   a   rendszerterv.   Fontos,   hogy   az   itt   leírt   követelmények   a tényleges  követelmények  legyenek  félreértések  nélkül.  A  követelmények  a  fejlesztés  során változhatnak. Erre a különböző módszertanok más és más választ adnak. Itt kell felsorolnunk a vonatkozó törvényi előírásokat, szabványokat, amiket be kell tartanunk. Részei:
+
+  -Funkcionális követelmények
+  -Nem funkcionális követelmények
+  -Törvényi előírások, szabványok
+
+-Funkcionális terv: A funkcionális terv a fejlesztők szemszögéből írja le az  elkészítendő funkciókat a funkcionális specifikáció alapján (ami  a felhasználó szemszögéből írja le a funkciókat). Részei:
+
+  -Rendszer szereplők
+  -Rendszer használati esetek és lefutásaik
+  -Határ osztályok
+  -Menü hierarchiák
+  -Képernyő tervek
+
+-Fizikai környezet:  Itt  határozzuk  meg,  hogy  milyen  platformon  (Java,  .NET,  ...)  fogunk fejleszteni,  milyen  operációs  rendszerre  és  hardverre.  Gyakran  fontos  tudnunk  a  hálózat felépítését   is,   például,   hogy   van-e   tűzfal,   az   milyen   portokat   engedélyez.   Ha   vannak megvásárolt komponenseink, azokat is itt kell megadnunk. Részei:
+
+  -Vásárolt software komponensek és külső rendszerek
+  -Hardver és hálózati topológia
+  -Fizikai alrendszerek
+  -Fejlesztő eszközök
+  -Keretrendszer (pl. Spring)
+
+-Absztrakt   domain   modell:   Itt   írjuk   le   a   megvalósítandó   rendszer  fogalmait,   illetve   a megvalósítás   nagyon   magas   szintű   vázát   általában   egy-két   konkrét   példán   keresztül. Megadjuk  a  fő  komponenseket  és  ezek  kapcsolatait.  Ez  a  rendszer  nagyvonalú  (vagy  csak konceptuális) terve. Részei:
+
+  -Domain specifikáció, fogalmak
+  -Absztrakt komponensek, ezek kapcsolatai
+
+-Architekturális  terv:  A nemfunkcionáliskövetelmények  alapján  kell kialakítani. Ez  csak  akkor lehetséges,  ha  ezek  mögé  nézünk.  Pl.  ha  az  a  követelmény,  hogy  10000  felhasználót  kell kiszolgálnia a  rendszernek,  akkor meg  kell  tudnunk,  mi  történik  a 10001. felhasználóval, mi van,   ha   ez   a   vezérigazgató.   Fontos,   hogy   a   választott   architektúra   könnyen   tudjon alkalmazkodni  a  változásokhoz  (pl.  konfigurációs  állományok  használata)  és  rugalmasan bővíthető legyen. Ittadhatjuk meg a biztonsági funkciókat, pl. a jogosultság kezelést. Részei:
+
+  -Egy architekturális tervezési minta (pl. MVC, 3-rétegű alkalmazás, ...)
+  -Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
+  -Változások kezelése
+  -Rendszer bővíthetősége
+  -Biztonsági funkciók
+
+-Adatbázis terv: Meg kell adni a táblákat, a köztük lévő kapcsolatokat. Általában elvárás, hogy az adatbázis terv 3. normálformában legyen. Itt lehet megadni a tárolt eljárásokat is. Részei:
+
+  -Logikai adatmodell
+  -Tárolt eljárások
+  -Fizikai adatmodellt legeneráló SQL szkript
+
+-Implementációs  terv:  Az  implementációs  terv  adja  meg  a  megvalósítás  osztályait.  Meg  kell felelnie   a   kiválasztott   architektúrának.   A   lenti  alfejezetek   3-rétegű   alkalmazás   esetén használhatóak.   Az  implementációs   tervben   érdemes   tervezési   mintákat   alkalmazni   és 
+betartani a tervezési alapelvek ajánlásait, hogy rugalmas, könnyen bővíthető és módosítható szerkezetet kapjunk. Részei:
+
+  -Perzisztencia osztályok
+  -Üzleti logika osztályai
+  -Kliens oldal osztályai
+
+-Tesztterv: Lefekteti a tesztelés elveit, folyamatát és kontrolját.  Meghatározza a fő teszteseteket. Meghatározza a sikeres teszt kritériumait.
+
+-Telepítési terv: A rendszer kialakítására (pl. szerver telepítés), a telepítő csomag elkészítésére vonatkozó elvek, megszorítások. Itt is meg lehet adni a fizikai környezetet.
+
+-Karbantartási terv: A szoftver frissítésének  módja,  folyamata. Karbantartási  teszttervek. Általában csak akkor készül el, ha már egy verziót átadtunk és a következő verziót tervezzük.
