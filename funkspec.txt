@@ -8,6 +8,22 @@ vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott érték
 nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
 2. Terjedelem
 
+  A funkcionális specifikáció fontosabb részei:
+
+   > A rendszer céljai és nem céljai.
+   > Jelenlegi helyzet leírása.
+   > Vágyálom rendszer leírása.
+   > A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+   > Jelenlegi üzleti folyamatok modellje.
+   > Igényelt üzleti folyamatok modellje.
+   > Követelménylista.
+   > Használati esetek [Use cases].
+   > Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+   > Képernyő tervek.
+   > Forgatókönyvek.
+   > Funkció – követelmény megfeleltetés.
+   > Fogalomszótár.
+
 3. Jelenlegi helyzet
 	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 4. Jelenegi folyamatok modellje
