@@ -11,3 +11,4 @@ Résztveők: 5 fő
 Akik a saját feladatukat befejezték, azok azokon a területeken segítenek, amelyek még be nem fejezettek.
 
 Ezzel párhuzamosan a FEJLESZTÉS megkezdése, külön részegységekre bontva. Mindenki vállal egy meghatározott blokkkot a program fejlesztéséből és azt a blokkot fejleszti önállóan vagy segítséggel. Hatékonyság érdekében egy-egy blokk egy maximum két ember számára javasolt.
+Egy-egy blokknak számít pl.: regisztráció stb...
