@@ -1,0 +1,11 @@
+Stand-up meeting 2018.11.22
+
+Történt események:
+	- Üzleti modell leírásának folytatása, javítása. Befejezett állapotban van. Kovspec., funkspec. is kész. 
+	- Funkspec áttekintés része kész. Kovspec áttekintés rész kész.
+	- Funkspec használati esetek részletezve és kész. Rendszerterv készítése.
+	- Képernyőtervek készítése. Még be nem fejezett. Folyamatban.
+	
+Résztveők: 5 fő 
+
+Akik a saját feladatukat befejezték, azok azokon a területeken segítenek, amelyek még be nem fejezettek.
