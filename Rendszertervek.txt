@@ -2,10 +2,16 @@
 
 1. Konceptuális rendszerterv:
 
-	Egy könnyen, jól és gyorsan használható interaktív / játékos programot szeretnénk elkészíteni, amelyhez különböző  		felhasználók / személyek fognak használni.
-	A programban tanárok, diákok és szülők egyaránt részvehetnek majd különböző aktivitásokon / feladatokon. A felhasználók 	más-más képpen fognak interaktiválni a programmal.
+     Egy könnyen, jól és gyorsan használható interaktív / játékos programot szeretnénk elkészíteni, amelyhez különböző
+     felhasználók / személyek fognak használni.
+     A programban tanárok, diákok és szülők egyaránt részvehetnek majd különböző aktivitásokon / feladatokon. A felhasználók 
+     más-más képpen fognak interaktiválni a programmal.
 
-	A program azért készül, hogy iskolákban, vagy más tanulmányi intézetekben, segítsék a tanulást. Az ember szívesebben 		dolgozik egy számítógépen, vagy esetleg egy tableten, mint egy teremben ülve hallgatni ahogy a tanár előadja az anyagot, 	 ezért egy online játékos oktatás sokkal vonzóbb az átlag diák számára. A programban könnyebben átlehet látni a dolgokat, 	  meglehet biztosúlni arról, hogy mindenki lát mindent (pl. Dolgozat időpontja, ünnepség stb.), és könnyen feltudják venni a 	     kapcsolatott a tanárok, diákok és a szülők.
+     A program azért készül, hogy iskolákban, vagy más tanulmányi intézetekben, segítsék a tanulást. Az ember szívesebben
+     dolgozik egy számítógépen, vagy esetleg egy tableten, mint egy teremben ülve hallgatni ahogy a tanár előadja az anyagot,
+     ezért egy online játékos oktatás sokkal vonzóbb az átlag diák számára. A programban könnyebben átlehet látni a dolgokat,
+     meglehet biztosúlni arról, hogy mindenki lát mindent (pl. Dolgozat időpontja, ünnepség stb.), és könnyen feltudják venni a 
+     kapcsolatott a tanárok, diákok és a szülők.
 	
 2. Nagyvonalú rendszerterv:
 
