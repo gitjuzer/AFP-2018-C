@@ -1,18 +1,79 @@
 ﻿Funkcionális specifikáció a Játékos oktatás projekthez.
 
 1. Áttekintés
-A program elsődleges célja az oktatás, méghozzá olyan formában ami egyszerre szórakoztatja a tanulót, ezáltal nagyobb hatást érünk el a
-mint a szokásos tankönyvi anyaggal. Az alkalmazás külön szerepkörökre osztja a felhasználókat. Minden szerepkörnek megvannak a sajátosságai
-amihez hozzáférhetnek. Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket, megjegyzéseket fűzhet hozzá
-vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz. A feladatsorokat
-nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
+
+     A program elsődleges célja az oktatás, méghozzá olyan formában ami egyszerre szórakoztatja a tanulót, ezáltal nagyobb hatást érünk el a
+     mint a szokásos tankönyvi anyaggal. Az alkalmazás külön szerepkörökre osztja a felhasználókat. Minden szerepkörnek megvannak a sajátosságai
+     amihez hozzáférhetnek. Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket, megjegyzéseket fűzhet hozzá
+     vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz. A feladatsorokat
+     nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
+
 2. Terjedelem
 
+  A funkcionális specifikáció fontosabb részei:
+
+   > A rendszer céljai és nem céljai.
+   > Jelenlegi helyzet leírása.
+   > Vágyálom rendszer leírása.
+   > A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+   > Jelenlegi üzleti folyamatok modellje.
+   > Igényelt üzleti folyamatok modellje.
+   > Követelménylista.
+   > Használati esetek [Use cases].
+   > Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+   > Képernyő tervek.
+   > Forgatókönyvek.
+   > Funkció – követelmény megfeleltetés.
+   > Fogalomszótár.
+
 3. Jelenlegi helyzet
-	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
+	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a                 programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük                 csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
+
 4. Jelenegi folyamatok modellje
 
 5. Igényelt folyamatok modellje
+    Az üzleti folyamatok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat, amelyeket a     megrendelt informatikai rendszer támogatni fog. Ehhez meg kell ismernünk a megrendelő szakkifejezéseit is, amiből fogalomszótárt szoktunk építeni. A modellezés során a
+    következő tevékenységeket szoktuk elvégezni:
+
+    -üzleti szereplő és munkatárs elemzés,
+    -üzleti folyamat elemzés,
+    -üzleti entitás elemzés,
+    -üzleti folyamatok modellezése.
+
+    Üzleti szereplő és munkatárs elemzés:
+
+    Az üzleti szereplő és munkatárs elemzés során a következ
+    ő termékeket kell előállítani:
+
+    -Üzleti munkatárs (Business Worker)
+    -Üzleti szereplő (Business Actor)
+
+    Üzleti szereplők azok a személyek vagy külső rendszerek, amelyek interakcióba lépnek az üzleti folyamatokkal. Üzleti munkatársnak nevezzük azokat a szerepköröket,     amelyek a szervezeten belül
+    lépnek kapcsolatba az üzleti folyamatokkal.
+
+    A riportokban előforduló főnevek, főleg a személynevek, lehetnek a külső és belső üzleti szereplők. A leggyakrabban előforduló üzleti szereplők (azaz külső     szerepkörök):
+
+    -Partner,
+    -Vásárló,
+    -Ellenőrző szerv.
+
+    Általában a partnernek is több fajtája van:
+
+    -Beszállító,
+    -Értékesítő,
+    -Megbízott, azaz a kiszervezett folyamatokat (pl. weblapkészítés, könyvelés) ellátó külső cég.
+
+    A vásárlókat és a partnereket is szokás fontosságuk szerint
+    megkülönböztetni:
+
+    -Kiemelt partner,
+    -Időszakos partner,
+    -Törzsvásárló,
+    -Visszatérő vásárló,
+    -Alkalmi vásárló,
+    -VIP személy.
+
+    Ellenőrző szervből sokféle van. Általában a megrendelő cég ágazatát szabályozó törvények és rendeletek írják elő, hogy milyen ellenőrző szerv felé milyen adatokat kell     nyújtani, amit az információs rendszer automatizálhat.Az üzleti munkatársakat úgy tudjuk legegyszerűbben felderíteni, ha a riportok során rákérdezünk azoknak a     beosztására, akik a megrendelt rendszert használni szokták.
 
 6. Követelménylista
 	Figyelemfelkeltő legyen a userek számára.
@@ -39,13 +100,14 @@ nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportok
 
 9. Használati esetek:
 
-	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár különböző dolgokra fogja használni a programot.
-	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok, ügyintézők stb.
-	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy tanár.
-	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin, gyakornokok, titkárok / ügyintézők stb.
-	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy tanár	Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni / nézni, mint egy tanár.
+	A Játékos oktatás használatához különböző személyek / felhasználók más-más fajta módon férhetnek hozzá / interactiválhatnak vele. pl.: Egy diák és egy tanár         különböző dolgokra fogja használni a programot.
+	Ez alapján a különböző személyeknek ki kell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin,         gyakornokok, titkárok, ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahhoz a rendszerekhez mint egy         tanár.
+	Ez alapján a különböző személyeknek kikell alakítani a megfelelő használati eseteket. Esetek közül jelentősebbek: Igazgató, tanárok, diákok, szülők, admin,         gyakornokok, titkárok / ügyintézők stb.
+	Fontos, hogy a eltérő rendszer használatokhoz, csak az férjen hozzá akinek hozzá kell férnie, pl.: egy diák ne férjen hozzá ugyan ahoz a rendszerekhez mint egy         tanár. Az is fontos, hogy a felhasználók jól beláthassák azt amit használniuk kell, pl.: egy diák máshogy viszonyul majd a programhoz és más dolgokat fog keresni /         nézni, mint egy tanár.
 
 	Felhasználók hozzáférései és mire fogják majd használni a programot:
+
 		Igazgató:
 			Az igazgató megnézheti minden diák jegyét, valamint milyen dicséretett, büntetést adtak a tanárok.
 			Az igazgató az egyetlen aki adhat verseny részvételért díjat / dicséretett.
