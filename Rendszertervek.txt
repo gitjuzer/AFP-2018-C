@@ -15,7 +15,6 @@
 	
 2. Nagyvonalú rendszerterv:
 
-
 -A rendszer célja, hogy a felhasználó játékos körülmények között tudjon tanulni,
 különböző feladatokat megoldani. 
 -Fontos megjegyezni, hogy fiatal korosztályra való tekintettel a felületnek egyszerűnek,
