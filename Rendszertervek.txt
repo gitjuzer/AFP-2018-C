@@ -68,8 +68,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	    -A program stílusa: Itt tervezzük a program kinézetétt. Betűstílus, betűméret, ablakok, gombok, hátterek, jólláthatóság, stb.
 		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
 		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
-	
-	Ütemterv: ()
+		-Program Fejlesztése: Magát a programot tesztelő és elkészítő szerepkör.
 	
 	Mérföldkövek:
 		1.Program részletes vázlatának elkészítése (12.06 -ig)
@@ -123,8 +122,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	A felhasználói osztályok funkcióját nem részletezném, ez a funspec 9. fejezetében megtalálható.
 
 6)Fizikai környezet:
-
-
+-Programunkat Android és web platformra hordozható eszközök(okostelefonok,táblagépek és PC-k)számára.
+-Van tűzfal a hálózaton és minden portot is engedélyez. 
+-Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:  - Android studio
+			- Visual studio
+			- Notepad++
 7)Absztrakt domain modell:
 
 
