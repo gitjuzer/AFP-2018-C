@@ -113,7 +113,13 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 13)Karbantartási terv:
-		
+-Az üzemeltetési feladatok és a karbantartás, és vagy hibaelhárítás csak rendszergazdai jogosultsággal legyen elérhető.
+- Ő végezhesse el az uj verzióra való frissítést. 
+- Biztonsági másolat készítése esetleges hiba bekövetkezése okán.
+-Rendszeres vizsgálatot kell tartani a programunk esetleges hibáinak kiküszöbölésére.
+-Az adatbázisban tárolt megoldások helyességét is meg kell vizsgálni.
+- Hibavisszajelzés biztosítása a felhasználók felé.
+ 
 		
 		
 		
