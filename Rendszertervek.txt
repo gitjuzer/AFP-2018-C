@@ -128,7 +128,29 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 - Fejlesztői eszközök:  - Android studio
 			- Visual studio
 			- Notepad++
+			
 7)Absztrakt domain modell:
+
+  -A rendszer célja, hogy a felhasználó játékos körülmények között tudjon tanulni, különböző feladatokat megoldani. 
+  -Fontos megjegyezni, hogy fiatal korosztályra való tekintettel a felületnek egyszerűnek, jól átláthatónak kell lennie.
+  -A Tanuló meg tudja nézni az eddigi pontszámait,elért eredményeket, esetleg egy ranglista az adott témakőrben (szükség lesz adatbázisra).
+  -Külön képernyő/fül legyen a diákoknak, tanároknak, igazgatónak, Szülőknek, Adminnak, ügyintézőnek.
+  -Külön képernyőn/fülön legyenek a témák.
+  -A kinézetett lehessen testreszabni.
+  -Szülők/Tanárok/igazgató is láthassák a diák eredméyeit,esetleg az aktivitását.
+  -A tanár tudjon jegyeket adni a diákoknak.
+  -Mivel bejelentkezéssel tudják elérni az alkalmazást,ezért kell egy "login" fül, és ehhez is egy adatbázis.
+  -A program tudjon kommunikálni ezzekkel az adatbázisokkal valós idejüleg.
+  -A szoftver elérhető legyen Windowson és Androidon. 
+  -A szoftver külső beavatkozás nélkül tudjon mérlegelni,pontot számítani (Esetlegesen a tanár minimálisan felül tudjon írni).
+  -A tanár és az igazgató tudjon üzenetet/értesítést küldeni a szülőknek és a diákoknak, valamint dicséreteket és megrovásokat adni a diákoknak amit a szülők is látnak.
+  -Az ügyintéző képes körlevelet küldeni amit meg tud jelőlni "FONTOS" jelzővel, valamint ő a "hibaelhárító".
+  -Az igazgató minenkinek tud üzenetet küldeni.
+  -Ügyintéző mindenkinek tud üzenetet küldeni.
+  -Tanár tud üzenetet küldeni: Szülők, diákok, igazgató, ügyintéző.
+  -Szülő tud üzenetet küldeni: Saját gyerekének, tanároknak.
+  -Az igazgató lássa ugyan azt amit a tanár,ezen felül tudjon "versenyeket" hírdetni, és ezeket díjazni.
+  -Az admin hozzá tudjon férni az összes adatbázishoz, esetlegesen javítani a hibákat, valamint új diákokat, tanárokat tud hozzáadni és meglévőket módosítani.
 
 
 8)Architekturális terv:
