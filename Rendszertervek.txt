@@ -48,3 +48,114 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 3. Részletes rendszerterv:
+
+
+1)Rendszer célja:
+
+    A program célja, hogy könnyebbé, érdekesebbé, izgalmasabbá, és elérhetőbbé tegye az iskolákban alkalmazott oktatást.
+    Azonnali kapcsolat felvétel bizotsítása a rendszert használó felhasználók között. Rengeteg feltöltött oktatási anyag elérése.
+    Rendszerbeli dolgozatok, és felhasználók általi közzétett felhívások.
+	
+    A rendszernek NEM célja, hogy teljes egészében lecserélje a tantermi oktatást, sőt inkább erősíti azt. 
+    Nem egy teljesen online iskola rendszert szeretnénk kiépíteni, hanem a már meglévő rendszert segíteni, így már az előbbiekben felsoroltá tenni a tanulást.
+	
+	
+2)Projekt terv:
+
+    Ugye egy sikeres csapat projekthez bekell osztani a munkát és szerepköröket kialakítani.
+	
+    Szerepkörök:
+	    -A program stílusa: Itt tervezzük a program kinézetétt. Betűstílus, betűméret, ablakok, gombok, hátterek, jólláthatóság, stb.
+		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
+		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
+	
+	Ütemterv: (Lásd ütemterv.txt)
+	
+	Mérföldkövek:
+		1.Program részletes vázlatának elkészítése (12.06 -ig)
+		2.Program vázlatának tesztelése (12.13 -ig)
+		3.Program stílusának véglegesítése
+		4.Külöböző interfacek integrálása.
+		5.Felhasználók felvétele. 
+		6.Jogosultságok tesztelése.
+		7.Felhasználók közötti kapcsolat tesztelése.
+		8.Program befejezése.
+
+		
+3)Üzleti folyamatok modellje:
+
+
+4)Követelmények:
+
+
+5)Funkcionális terv:
+
+
+6)Fizikai környezet:
+
+
+7)Absztrakt domain modell:
+
+
+8)Architekturális terv:
+
+
+9)Adatbázis terv:
+
+
+10)Implementációs terv:
+
+
+11)Tesztterv:
+
+
+12)Telepítési terv:
+
+
+13)Karbantartási terv:
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
