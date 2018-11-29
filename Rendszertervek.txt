@@ -96,7 +96,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 		
         -Adminok:
             Gyakorlatilag az iskolarendszerhez tartozó emberek, akik a programot kezelik majd az iskolában.
-            Ők fogják majd továbbítani a felhasználók általi visszajelzést, valamint helyi program hibával is ők foglalkoznak.			
+            Ők fogják majd továbbítani a felhasználók általi visszajelzést, valamint helyi program hibával is ők fognak foglalkoznak.			
 	    	
 	Üzleti folyamatok:
 	    -Program részletes vázlatának elkészítése és azt bemutatni különböző cégeknek / iskoláknak / stb.
