@@ -30,6 +30,13 @@
 	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a                 programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük                 csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 
 4. Jelenegi folyamatok modellje
+	Ha egy folyamatmodellt szimulálunk (például a korábban bemutatott manuális
+	módszerrel, token mozgatásával), akkor a folyamat egy konkrét lefutását kapjuk.
+	A folyamat konkrét lefutásait a folyamatmodell folyamatpéldányainak nevezzük.
+	A folyamatpéldány olyan események sorozata, amelyek a folyamatot alkotó elemi
+	tevékenységek kezdetét és befejezését jelzik, illetve az egész folyamat kezdetét és
+	befejezését. A folyamatmodell szemantikája voltaképp az, hogy ezen eseményeket
+	azonosítja, és lehetséges sorrendjükre tesz megkötéseket.
 
 5. Igényelt folyamatok modellje
     Az üzleti folyamatok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat, amelyeket a     megrendelt informatikai rendszer támogatni fog. Ehhez meg kell ismernünk a megrendelő szakkifejezéseit is, amiből fogalomszótárt szoktunk építeni. A modellezés során a
