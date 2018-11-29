@@ -107,47 +107,53 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 11)Tesztterv:
-A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
+	A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
+	A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
 
-Tesztelési metódusok:
- -Teszt1
-	- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
-	- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+	Tesztelési metódusok:
+	 -Teszt1
+		- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
+		-A tesztet a fejlesztők végzik.
+		- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
 
- -Teszt2
-	- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
-	- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
+	 -Teszt2
+		- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
+		- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
 
-Tesztelést igénylő komponensek:
-	A menü elrendezésének ellenőrzése:
-		Elvárt működés: az alsó sávban jelenlévő szerepkörre irányuló gombok azokat a szerepköröket teszik lehetővé amelyek nevei szerepelnek rajtuk.
-	A Tanuló szerepkör:
-		Elvárt működés: a jobb oldalon az "Eredmény" gombra kattintva az eredményeket listázza ki.A témakörök kiválasztásával a helyes témakörön belül kapunk kérdéseket. A "Tovább a témakörhöz" gomb a kérdésekhez dob.
-	A Tanár szerepkör:
-		Elvárt működés: a bal oldalon elhelyezett "Értékelés" gomb a Tanulók eredményein alapvó jegyeket listázza ki. A "Csoportjaim" gomb a csoportokat teszi láthatóvá. A "Feladatok" gombra kattintva a új feladatokat és az eddig meglévőeket listázza ki.
+	Tesztelést igénylő komponensek:
+		A menü elrendezésének ellenőrzése:
+			Elvárt működés: az alsó sávban jelenlévő szerepkörre irányuló gombok azokat a szerepköröket teszik lehetővé amelyek nevei szerepelnek rajtuk.
+		A Tanuló szerepkör:
+			Elvárt működés: a jobb oldalon az "Eredmény" gombra kattintva az eredményeket listázza ki.
+			A témakörök kiválasztásával a helyes témakörön belül kapunk kérdéseket. 
+			A "Tovább a témakörhöz" gomb a kérdésekhez dob.
+		A Tanár szerepkör:
+			Elvárt működés: a bal oldalon elhelyezett "Értékelés" gomb a Tanulók eredményein alapvó jegyeket listázza ki.
+			A "Csoportjaim" gomb a csoportokat teszi láthatóvá. 
+			A "Feladatok" gombra kattintva a új feladatokat és az eddig meglévőeket listázza ki.
+		A Szülő szerepkör:
+			Elvárt működés: Az alsó harmadban lévő "Eredmények megtekintése" gonómra kattintva a fiókhoz rendelt Tanuló eredményei jelennek meg.
 		
-	
-	
-Tesztelési folyamat leírása:
- A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
- A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
- Az Teszt1 esetén ez a következőket tartalmazza:
-	- Tesztelő neve
-	- Rögzítés ideje
-	- A hiba helye
-	- A hiba leírása
-	- Böngésző neve, amelyben a hiba fellépett
+		
+	Tesztelési folyamat leírása:
+	 A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
+	 A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
+	 Az Teszt1 esetén ez a következőket tartalmazza:
+		- Tesztelő neve
+		- Rögzítés ideje
+		- A hiba helye
+		- A hiba leírása
+		- Böngésző neve, amelyben a hiba fellépett
 
- A Teszt2 jegyzőkönyvének mezői:
-	- Tesztelő neve
-	- Tesztelt elem
-	- Tesztelt elem funkciója
-	- Tesztelt elem helye az alkalmazásban
-	- A támogatott böngészőkben megfelelően működik-e, vagy sem
+	 A Teszt2 jegyzőkönyvének mezői:
+		- Tesztelő neve
+		- Tesztelt elem
+		- Tesztelt elem funkciója
+		- Tesztelt elem helye az alkalmazásban
+		- A támogatott böngészőkben megfelelően működik-e, vagy sem
 
-A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
-hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
+	A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
+	hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
 
 12)Telepítési terv:
 
