@@ -96,7 +96,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 5)Funkcionális terv:
 	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
-	Erre egy névteret kellene használni, ebbe nem csak a felhasználói osztályokat, hanem az ehhez tartozó adatokat -jegyek, üzenetek- is lehetne tárolni,
+	Erre egy névteret kellene használni, ebbe nem csak a felhasználói osztályokat, hanem az ehhez tartozó adatokat -jegyek, üzenetek- is lehetne tárolni.
 	így az elkülönülne a játékoktól, megkönnyítené a kódbeli tájékozódást.
 	A Users névtér alatt tárolnánk a User őst, ami a minden felhasználóra érvényes adatokat tárolná.
 	Ebből már könnyen származtatható a Igazgató, Admin, Tanár, Diák, Szülő, Ügyintéző, és a további továbbfejlesztés is könnyen megoldható.
