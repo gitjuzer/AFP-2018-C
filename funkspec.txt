@@ -30,8 +30,7 @@
 	Rengeteg hasonló szoftver létezik a földön különböző korosztályoknak. Ilyen például a Doulingo ami az angol nyelvre fektet hangsúlyt, a SoloLearn ami a                 programozásra.Teljesen piacképes programok ám mindből hiányoznak a szerepkörök. A szülők nem tudják ellenőrizni a gyerekeik eredményeit, nem lehet bennük                 csoportokat kialakítani. A szoftverünk ezeket a problémákat szeretné orvosolni. A termék teljesen ingyenes a többi ilyen szintű programmal szemben.
 
 4. Jelenegi folyamatok modellje
-	Ha egy folyamatmodellt szimulálunk (például a korábban bemutatott manuális
-	módszerrel, token mozgatásával), akkor a folyamat egy konkrét lefutását kapjuk.
+	Ha egy folyamatmodellt szimulálunk, akkor a folyamat egy konkrét lefutását kapjuk.
 	A folyamat konkrét lefutásait a folyamatmodell folyamatpéldányainak nevezzük.
 	A folyamatpéldány olyan események sorozata, amelyek a folyamatot alkotó elemi
 	tevékenységek kezdetét és befejezését jelzik, illetve az egész folyamat kezdetét és
