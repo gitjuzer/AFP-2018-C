@@ -98,8 +98,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 6)Fizikai környezet:
-
-
+-Programunkat Android és web platformra hordozható eszközök(okostelefonok,táblagépek és PC-k)számára.
+-Van tűzfal a hálózaton és minden portot is engedélyez. 
+-Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:  - Android studio
+			- Visual studio
+			- Notepad++
 7)Absztrakt domain modell:
 
 
