@@ -68,8 +68,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	    -A program stílusa: Itt tervezzük a program kinézetétt. Betűstílus, betűméret, ablakok, gombok, hátterek, jólláthatóság, stb.
 		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
 		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
-	
-	Ütemterv: ()
+		-Program Fejlesztése: Magát a programot tesztelő és elkészítő szerepkör.
 	
 	Mérföldkövek:
 		1.Program részletes vázlatának elkészítése (12.06 -ig)
