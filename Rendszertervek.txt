@@ -68,8 +68,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	    -A program stílusa: Itt tervezzük a program kinézetétt. Betűstílus, betűméret, ablakok, gombok, hátterek, jólláthatóság, stb.
 		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
 		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
-	
-	Ütemterv: (Lásd ütemterv.txt)
+		-Program Fejlesztése: Magát a programot tesztelő és elkészítő szerepkör.
 	
 	Mérföldkövek:
 		1.Program részletes vázlatának elkészítése (12.06 -ig)
@@ -83,8 +82,28 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 		
 3)Üzleti folyamatok modellje:
-
-
+    
+	Üzleti szereplők: Az üzleti szereplők azok akik valami féle módon, felhasználóként vagy adminként, interaktiválnak magával a programmal.
+	    -Eladó: 
+		    Ezek lennénk mi, hacsak nem egy ismertebb forgalmazóhoz megyünk hogy több egységet tudjunk eladni.
+		    Az eladónak fontos a reklámozás, hogy minél több ember lássa mit is árulunk. Ugyan úgy fontos a hírnév, hisz ki akar bármit is venni rosz hírnévű cégtől.
+			Mivel itt mi vagyunk az eladók, ezért nekünk kell biztosítanunk a programunk helyes működését, valamint annak frissítését és javítását.
+		
+        -Felhasználók / vásárlók:
+		    Ide tartoznak az iskolarendszerek, és azon belül a programot használó különböző felhasználók.
+			A felhasználók biztosítják majd a visszajelzést, azt hogy micsodán tudnánk javítani a program következő verzióiban.
+		
+        -Adminok:
+            Gyakorlatilag az iskolarendszerhez tartozó emberek, akik a programot kezelik majd az iskolában.
+            Ők fogják majd továbbítani a felhasználók általi visszajelzést, valamint helyi program hibával is ők fognak foglalkoznak.			
+	    	
+	Üzleti folyamatok:
+	    -Program részletes vázlatának elkészítése és azt bemutatni különböző cégeknek / iskoláknak / stb.
+		-Program elkészítése a vázlat és a kapott visszajelzések alapján.
+		-Kész program tesztelése felhasználókkal.
+		-Program kiadása.
+		-Program folyamatos hibajavítása és frissítése.
+				     
 4)Követelmények:
 
 	Funkcionális követelmények:
@@ -103,8 +122,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	A felhasználói osztályok funkcióját nem részletezném, ez a funspec 9. fejezetében megtalálható.
 
 6)Fizikai környezet:
-
-
+-Programunkat Android és web platformra hordozható eszközök(okostelefonok,táblagépek és PC-k)számára.
+-Van tűzfal a hálózaton és minden portot is engedélyez. 
+-Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:  - Android studio
+			- Visual studio
+			- Notepad++
 7)Absztrakt domain modell:
 
 
@@ -118,38 +141,53 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 11)Tesztterv:
-A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
+	A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
+	A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
 
-Tesztelési metódusok:
- -Teszt1
-	- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
-	- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+	Tesztelési metódusok:
+	 -Teszt1
+		- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
+		-A tesztet a fejlesztők végzik.
+		- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
 
- -Teszt2
-	- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
-	- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
+	 -Teszt2
+		- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
+		- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
 
-Tesztelési folyamat leírása:
- Az alfa és béta teszt során a fejlesztők elkészítik a jegyzőkönyv sablonját, majd felteszik egy online felületre.
- A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
- A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
- Az Teszt1 esetén ez a következőket tartalmazza:
-	- Tesztelő neve
-	- Rögzítés ideje
-	- A hiba helye
-	- A hiba leírása
-	- Böngésző neve, amelyben a hiba fellépett
+	Tesztelést igénylő komponensek:
+		A menü elrendezésének ellenőrzése:
+			Elvárt működés: az alsó sávban jelenlévő szerepkörre irányuló gombok azokat a szerepköröket teszik lehetővé amelyek nevei szerepelnek rajtuk.
+		A Tanuló szerepkör:
+			Elvárt működés: a jobb oldalon az "Eredmény" gombra kattintva az eredményeket listázza ki.
+			A témakörök kiválasztásával a helyes témakörön belül kapunk kérdéseket. 
+			A "Tovább a témakörhöz" gomb a kérdésekhez dob.
+		A Tanár szerepkör:
+			Elvárt működés: a bal oldalon elhelyezett "Értékelés" gomb a Tanulók eredményein alapvó jegyeket listázza ki.
+			A "Csoportjaim" gomb a csoportokat teszi láthatóvá. 
+			A "Feladatok" gombra kattintva a új feladatokat és az eddig meglévőeket listázza ki.
+		A Szülő szerepkör:
+			Elvárt működés: Az alsó harmadban lévő "Eredmények megtekintése" gonómra kattintva a fiókhoz rendelt Tanuló eredményei jelennek meg.
+		
+		
+	Tesztelési folyamat leírása:
+	 A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
+	 A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
+	 Az Teszt1 esetén ez a következőket tartalmazza:
+		- Tesztelő neve
+		- Rögzítés ideje
+		- A hiba helye
+		- A hiba leírása
+		- Böngésző neve, amelyben a hiba fellépett
 
- A Teszt2 jegyzőkönyvének mezői:
-	- Tesztelő neve
-	- Tesztelt elem
-	- Tesztelt elem funkciója
-	- Tesztelt elem helye az alkalmazásban
-	- A támogatott böngészőkben megfelelően működik-e, vagy sem
+	 A Teszt2 jegyzőkönyvének mezői:
+		- Tesztelő neve
+		- Tesztelt elem
+		- Tesztelt elem funkciója
+		- Tesztelt elem helye az alkalmazásban
+		- A támogatott böngészőkben megfelelően működik-e, vagy sem
 
-A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
-hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
+	A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
+	hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
 
 12)Telepítési terv:
 
