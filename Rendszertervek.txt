@@ -87,6 +87,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 4)Követelmények:
 
+	Funkcionális követelmények:
+		
+	Nem funkcionális követelmények:
+		
+	Törvényi előírások, szabványok:
+		
 
 5)Funkcionális terv:
 
