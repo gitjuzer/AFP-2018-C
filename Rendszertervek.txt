@@ -87,6 +87,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 4)Követelmények:
 
+	Funkcionális követelmények:
+		
+	Nem funkcionális követelmények:
+		
+	Törvényi előírások, szabványok:
+		
 
 5)Funkcionális terv:
 	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
@@ -112,13 +118,50 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 11)Tesztterv:
+A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
 
+Tesztelési metódusok:
+ -Teszt1
+	- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
+	- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+
+ -Teszt2
+	- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
+	- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
+
+Tesztelési folyamat leírása:
+ Az alfa és béta teszt során a fejlesztők elkészítik a jegyzőkönyv sablonját, majd felteszik egy online felületre.
+ A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
+ A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
+ Az Teszt1 esetén ez a következőket tartalmazza:
+	- Tesztelő neve
+	- Rögzítés ideje
+	- A hiba helye
+	- A hiba leírása
+	- Böngésző neve, amelyben a hiba fellépett
+
+ A Teszt2 jegyzőkönyvének mezői:
+	- Tesztelő neve
+	- Tesztelt elem
+	- Tesztelt elem funkciója
+	- Tesztelt elem helye az alkalmazásban
+	- A támogatott böngészőkben megfelelően működik-e, vagy sem
+
+A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
+hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
 
 12)Telepítési terv:
 
 
 13)Karbantartási terv:
-		
+-Az üzemeltetési feladatok és a karbantartás, és vagy hibaelhárítás csak rendszergazdai jogosultsággal legyen elérhető.
+- Ő végezhesse el az uj verzióra való frissítést. 
+- Biztonsági másolat készítése esetleges hiba bekövetkezése okán.
+-Rendszeres vizsgálatot kell tartani a programunk esetleges hibáinak kiküszöbölésére.
+-Az adatbázisban tárolt megoldások helyességét is meg kell vizsgálni.
+- Hibavisszajelzés biztosítása a felhasználók felé.
+ 
 		
 		
 		
