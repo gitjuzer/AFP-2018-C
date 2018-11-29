@@ -119,8 +119,17 @@ Tesztelési metódusok:
 	- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
 	- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
 
+Tesztelést igénylő komponensek:
+	A menü elrendezésének ellenőrzése:
+		Elvárt működés: az alsó sávban jelenlévő szerepkörre irányuló gombok azokat a szerepköröket teszik lehetővé amelyek nevei szerepelnek rajtuk.
+	A Tanuló szerepkör:
+		Elvárt működés: a jobb oldalon az "Eredmény" gombra kattintva az eredményeket listázza ki.A témakörök kiválasztásával a helyes témakörön belül kapunk kérdéseket. A "Tovább a témakörhöz" gomb a kérdésekhez dob.
+	A Tanár szerepkör:
+		Elvárt működés: a bal oldalon elhelyezett "Értékelés" gomb a Tanulók eredményein alapvó jegyeket listázza ki. A "Csoportjaim" gomb a csoportokat teszi láthatóvá. A "Feladatok" gombra kattintva a új feladatokat és az eddig meglévőeket listázza ki.
+		
+	
+	
 Tesztelési folyamat leírása:
- Az alfa és béta teszt során a fejlesztők elkészítik a jegyzőkönyv sablonját, majd felteszik egy online felületre.
  A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
  A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
  Az Teszt1 esetén ez a következőket tartalmazza:
