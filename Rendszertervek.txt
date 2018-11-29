@@ -69,7 +69,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
 		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
 	
-	Ütemterv: (Lásd ütemterv.txt)
+	Ütemterv: ()
 	
 	Mérföldkövek:
 		1.Program részletes vázlatának elkészítése (12.06 -ig)
@@ -83,8 +83,28 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 		
 3)Üzleti folyamatok modellje:
-
-
+    
+	Üzleti szereplők: Az üzleti szereplők azok akik valami féle módon, felhasználóként vagy adminként, interaktiválnak magával a programmal.
+	    -Eladó: 
+		    Ezek lennénk mi, hacsak nem egy ismertebb forgalmazóhoz megyünk hogy több egységet tudjunk eladni.
+		    Az eladónak fontos a reklámozás, hogy minél több ember lássa mit is árulunk. Ugyan úgy fontos a hírnév, hisz ki akar bármit is venni rosz hírnévű cégtől.
+			Mivel itt mi vagyunk az eladók, ezért nekünk kell biztosítanunk a programunk helyes működését, valamint annak frissítését és javítását.
+		
+        -Felhasználók / vásárlók:
+		    Ide tartoznak az iskolarendszerek, és azon belül a programot használó különböző felhasználók.
+			A felhasználók biztosítják majd a visszajelzést, azt hogy micsodán tudnánk javítani a program következő verzióiban.
+		
+        -Adminok:
+            Gyakorlatilag az iskolarendszerhez tartozó emberek, akik a programot kezelik majd az iskolában.
+            Ők fogják majd továbbítani a felhasználók általi visszajelzést, valamint helyi program hibával is ők fognak foglalkoznak.			
+	    	
+	Üzleti folyamatok:
+	    -Program részletes vázlatának elkészítése és azt bemutatni különböző cégeknek / iskoláknak / stb.
+		-Program elkészítése a vázlat és a kapott visszajelzések alapján.
+		-Kész program tesztelése felhasználókkal.
+		-Program kiadása.
+		-Program folyamatos hibajavítása és frissítése.
+				     
 4)Követelmények:
 
 	Funkcionális követelmények:
@@ -95,7 +115,12 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 		
 
 5)Funkcionális terv:
-
+	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
+	Erre egy névteret kellene használni, ebbe nem csak a felhasználói osztályokat, hanem az ehhez tartozó adatokat -jegyek, üzenetek- is lehetne tárolni,
+	így az elkülönülne a játékoktól, megkönnyítené a kódbeli tájékozódást.
+	A Users névtér alatt tárolnánk a User őst, ami a minden felhasználóra érvényes adatokat tárolná.
+	Ebből már könnyen származtatható a Igazgató, Admin, Tanár, Diák, Szülő, Ügyintéző, és a további továbbfejlesztés is könnyen megoldható.
+	A felhasználói osztályok funkcióját nem részletezném, ez a funspec 9. fejezetében megtalálható.
 
 6)Fizikai környezet:
 -Programunkat Android és web platformra hordozható eszközök(okostelefonok,táblagépek és PC-k)számára.
