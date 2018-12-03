@@ -1,0 +1,9 @@
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe.config
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.pdb
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojAssemblyReference.cache
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.Properties.Resources.resources
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.GenerateResource.cache
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.CoreCompileInputs.cache
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
