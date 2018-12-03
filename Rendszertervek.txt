@@ -126,7 +126,8 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 -Van tűzfal a hálózaton és minden portot is engedélyez. 
 -Nincsenek megvásárolt komponenseink.
 - Fejlesztői eszközök:  - Android studio
-			- Visual studio
+			- Visual studio Community 2017 - version 15.9.3
+			- .NET Framework - version 4.7.03062
 			- Notepad++
 			
 7)Absztrakt domain modell:
