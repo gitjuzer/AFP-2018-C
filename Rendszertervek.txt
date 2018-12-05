@@ -107,11 +107,14 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 4)Követelmények:
 
 	Funkcionális követelmények:
-		
+		Felhasználók adatainak tárolása.
+		Felhasználók csoportokba szervezése.
+		Figyelem felkeltő felületek.
+		Androidon és webes környezeten való müködés.
 	Nem funkcionális követelmények:
-		
+		-
 	Törvényi előírások, szabványok:
-		
+		GDPR-nek való megfelelés.
 
 5)Funkcionális terv:
 	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
