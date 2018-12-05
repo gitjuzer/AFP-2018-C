@@ -92,7 +92,7 @@
             this.Controls.Add(this.buttonSzerepkorTanar);
             this.Controls.Add(this.buttonSzerepkorTanulo);
             this.Name = "FormSzerepkor";
-            this.Text = "Form1";
+            this.Text = "Játékos tanulás";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
