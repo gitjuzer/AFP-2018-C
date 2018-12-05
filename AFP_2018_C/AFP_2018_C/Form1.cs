@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AFP_2018_C
 {
-    public partial class Form1 : Form
+    public partial class FormSzerepkor : Form
     {
-        public Form1()
+        public FormSzerepkor()
         {
             InitializeComponent();
         }
