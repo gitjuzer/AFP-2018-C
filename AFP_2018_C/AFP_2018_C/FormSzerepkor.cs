@@ -16,5 +16,12 @@ namespace AFP_2018_C
         {
             InitializeComponent();
         }
+
+        private void buttonSzerepkorTanulo_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+
+        }
     }
 }

@@ -43,6 +43,7 @@
             this.buttonSzerepkorTanulo.TabIndex = 0;
             this.buttonSzerepkorTanulo.Text = "Tanuló";
             this.buttonSzerepkorTanulo.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorTanulo.Click += new System.EventHandler(this.buttonSzerepkorTanulo_Click);
             // 
             // buttonSzerepkorTanar
             // 
