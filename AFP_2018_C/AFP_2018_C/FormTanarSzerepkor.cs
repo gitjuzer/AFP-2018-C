@@ -21,5 +21,14 @@ namespace AFP_2018_C
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormSzerepkor formSzerepkor = new FormSzerepkor();
+            this.Hide();
+            formSzerepkor.ShowDialog();
+            this.Close();
+
+        }
     }
 }
