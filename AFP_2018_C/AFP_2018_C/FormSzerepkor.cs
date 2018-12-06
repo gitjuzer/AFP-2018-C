@@ -29,15 +29,16 @@ namespace AFP_2018_C
         {
             FormTanarSzerepkor formTanarSzerepkor = new FormTanarSzerepkor();
             this.Hide();
-            formTanarSzerepkor.Show();
+            formTanarSzerepkor.ShowDialog();
             this.Close();
         }
+
 
         private void buttonSzerepkorSzulo_Click(object sender, EventArgs e)
         {
             FormSzuloSzerepkor formSzuloSzerepkor = new FormSzuloSzerepkor();
             this.Hide();
-            formSzuloSzerepkor.Show();
+            formSzuloSzerepkor.ShowDialog();
             this.Close();
 
         }
