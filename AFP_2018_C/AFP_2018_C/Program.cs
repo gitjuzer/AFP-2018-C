@@ -8,9 +8,7 @@ namespace AFP_2018_C
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        
         [STAThread]
         static void Main()
         {
