@@ -16,5 +16,15 @@ namespace AFP_2018_C
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonTovabbTemakorhoz_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

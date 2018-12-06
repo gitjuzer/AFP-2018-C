@@ -28,40 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSzerepkor));
             this.buttonSzerepkorTanulo = new System.Windows.Forms.Button();
             this.buttonSzerepkorTanar = new System.Windows.Forms.Button();
             this.buttonSzerepkorSzulo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSzerepkorTanulo
             // 
-            this.buttonSzerepkorTanulo.Location = new System.Drawing.Point(109, 373);
+            this.buttonSzerepkorTanulo.Location = new System.Drawing.Point(93, 389);
             this.buttonSzerepkorTanulo.Name = "buttonSzerepkorTanulo";
             this.buttonSzerepkorTanulo.Size = new System.Drawing.Size(75, 23);
             this.buttonSzerepkorTanulo.TabIndex = 0;
             this.buttonSzerepkorTanulo.Text = "Tanuló";
             this.buttonSzerepkorTanulo.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorTanulo.Click += new System.EventHandler(this.buttonSzerepkorTanulo_Click);
             // 
             // buttonSzerepkorTanar
             // 
-            this.buttonSzerepkorTanar.Location = new System.Drawing.Point(354, 373);
+            this.buttonSzerepkorTanar.Location = new System.Drawing.Point(396, 389);
             this.buttonSzerepkorTanar.Name = "buttonSzerepkorTanar";
             this.buttonSzerepkorTanar.Size = new System.Drawing.Size(75, 23);
             this.buttonSzerepkorTanar.TabIndex = 1;
             this.buttonSzerepkorTanar.Text = "Tanár";
             this.buttonSzerepkorTanar.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorTanar.Click += new System.EventHandler(this.buttonSzerepkorTanar_Click);
             // 
             // buttonSzerepkorSzulo
             // 
-            this.buttonSzerepkorSzulo.Location = new System.Drawing.Point(607, 373);
+            this.buttonSzerepkorSzulo.Location = new System.Drawing.Point(653, 389);
             this.buttonSzerepkorSzulo.Name = "buttonSzerepkorSzulo";
             this.buttonSzerepkorSzulo.Size = new System.Drawing.Size(75, 23);
             this.buttonSzerepkorSzulo.TabIndex = 2;
             this.buttonSzerepkorSzulo.Text = "Szülő";
             this.buttonSzerepkorSzulo.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorSzulo.Click += new System.EventHandler(this.buttonSzerepkorSzulo_Click);
             // 
             // label1
             // 
@@ -73,27 +75,18 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Válassz szerepkört!";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(84, 81);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(620, 286);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // FormSzerepkor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(795, 444);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSzerepkorSzulo);
             this.Controls.Add(this.buttonSzerepkorTanar);
             this.Controls.Add(this.buttonSzerepkorTanulo);
             this.Name = "FormSzerepkor";
             this.Text = "Játékos tanulás";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,7 +98,6 @@
         private System.Windows.Forms.Button buttonSzerepkorTanar;
         private System.Windows.Forms.Button buttonSzerepkorSzulo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

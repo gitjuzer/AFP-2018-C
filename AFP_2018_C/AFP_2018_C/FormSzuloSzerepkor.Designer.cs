@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSzuloSzerepkor));
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -35,7 +36,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(283, 368);
+            this.button1.Location = new System.Drawing.Point(375, 455);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 54);
             this.button1.TabIndex = 0;
@@ -45,7 +46,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(319, 129);
+            this.textBox1.Location = new System.Drawing.Point(96, 46);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(112, 53);
             this.textBox1.TabIndex = 1;
@@ -55,7 +56,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 600);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(780, 521);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "FormSzuloSzerepkor";
