@@ -117,6 +117,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 		GDPR-nek való megfelelés.
 
 5)Funkcionális terv:
+
 	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
 	Erre egy névteret kellene használni, ebbe nem csak a felhasználói osztályokat, hanem az ehhez tartozó adatokat -jegyek, üzenetek- is lehetne tárolni.
 	így az elkülönülne a játékoktól, megkönnyítené a kódbeli tájékozódást.
@@ -157,7 +158,33 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
   -Az admin hozzá tudjon férni az összes adatbázishoz, esetlegesen javítani a hibákat, valamint új diákokat, tanárokat tud hozzáadni és meglévőket módosítani.
 
 
-8)Architekturális terv:
+8)Architekturális terv: (Lásd Architekturális terv.docx)
+
+    Alkalmazás rétegei / komponensei:
+        - Bejelentkezés - innen indulki minden.
+		- Főoldal - itt jelennek meg a különböző hírdetések, közlemények, stb. Valamint innen érhető el minden más.
+		- Órarend - diákok, valamint tanárok órái.
+		- Kérdőívek - az iskola alkalmazottak kérhetnek kitöltendő kérdőiveket.
+		- Dolgozat / tesztek - itt láthatók a meghírdetett dolgozatok, és innen lehet őket kitölteni a megadott időpontokban.
+		- Messenger - A felhasználók kommunikálhatnak egymással.
+		- Feladatok - A tanárok addhatnak feladatokat a diákoknak.
+		- Teljesítmények - Diákok és szüleik láthatják az érdemjegyeiket, és dicséreteket, megrovásokat egyaránt.
+	
+    Bővithetőség:
+        - A rendszer rengeteg felhasználót bír el, többet mint egy átlagos iskolának van, de ha kell még több hely,
+          akkor könnyen bővithető.
+        - Diákokat a tanárok felvehetnek, de csak az adminisztrátor hagyhatja jóvá a felvételt.
+        - Tanárokat az adminisztrátorok és az igazgató vesznek fel együtt.
+    
+    Biztonsági funkciók:
+        - Bejelentkezésnél hibás jelszónál, vagy felhasználónál nem enged be a rendszer.
+        - Több mint 5 hibás bejelentkezésnél elkéri az 'iskolád' kódját.
+        - Ha az sem működik akkor megkéri, hogy keres meg egy adminisztrátort.
+        - Ha diák vagy szülő próbál hozzáférni egy tanár, esetleg egy adminisztrátor fiókjához, akkor azonnal értesíti a rendszer azt a fiókot
+          (pl. Google bejelentkezés másik gépről.)
+		  
+   
+
 
 
 9)Adatbázis terv:
@@ -167,6 +194,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 11)Tesztterv:
+
 	A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
 	A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
 
