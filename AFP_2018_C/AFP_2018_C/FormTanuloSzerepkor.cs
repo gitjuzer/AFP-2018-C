@@ -27,8 +27,12 @@ namespace AFP_2018_C
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            FormSzerepkor formSzerepkor = new FormSzerepkor();
+            this.Hide();
+            formSzerepkor.ShowDialog();
+            this.Close();
 
         }
     }
