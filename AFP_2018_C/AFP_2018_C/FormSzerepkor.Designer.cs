@@ -53,6 +53,7 @@
             this.buttonSzerepkorTanar.TabIndex = 1;
             this.buttonSzerepkorTanar.Text = "Tanár";
             this.buttonSzerepkorTanar.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorTanar.Click += new System.EventHandler(this.buttonSzerepkorTanar_Click);
             // 
             // buttonSzerepkorSzulo
             // 
@@ -62,6 +63,7 @@
             this.buttonSzerepkorSzulo.TabIndex = 2;
             this.buttonSzerepkorSzulo.Text = "Szülő";
             this.buttonSzerepkorSzulo.UseVisualStyleBackColor = true;
+            this.buttonSzerepkorSzulo.Click += new System.EventHandler(this.buttonSzerepkorSzulo_Click);
             // 
             // label1
             // 
