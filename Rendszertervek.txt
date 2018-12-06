@@ -216,6 +216,9 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 	hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
 
 12)Telepítési terv:
+-A telepítést csak rendszergazdai jogosultsággal rendelkező user végezhesse.
+-Ki lehessen választani hogy hova telepítse a programot.
+-Tartalmazzon Általános Szerződési Feltételeket.
 
 
 13)Karbantartási terv:
