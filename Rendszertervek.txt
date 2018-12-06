@@ -169,7 +169,8 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 		- Messenger - A felhasználók kommunikálhatnak egymással.
 		- Feladatok - A tanárok addhatnak feladatokat a diákoknak.
 		- Teljesítmények - Diákok és szüleik láthatják az érdemjegyeiket, és dicséreteket, megrovásokat egyaránt.
-	
+	    - Felhívások - tanárok által létrehozható közlemények.
+		
     Bővithetőség:
         - A rendszer rengeteg felhasználót bír el, többet mint egy átlagos iskolának van, de ha kell még több hely,
           akkor könnyen bővithető.
@@ -191,6 +192,17 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 10)Implementációs terv:
+
+    1. Felhasználók felvétele.
+	2. Felvett felhasználók behelyezése a megadott csoportokba (szülő, diák, tanár).
+	3. Felhasználóknak a csoportok által megszabott jogaik beállítása.
+	4. Tanár - diák - szülő kapcsolatok beállítása.
+    5. Messenger - beni szobák létrehozása (Főszoba, osztályok, tanár - szülők, tanár - diákok, stb.)
+	6. Órarend felvétele a diákok és tanároknak.
+	7. Felhívások létrehozásának joga a tanároknak.
+	8. Kérdőívek, Dolgozat / tesztek, feladatok létrehozásának joga a tanároknak.
+	9. Kérdőívek, Dolgozat / tesztek, feladatok kitöltésének joga a diákoknak.
+   10. Teljesítmények elérhetők diákok és szülők számára.
 
 
 11)Tesztterv:
