@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTanuloSzerepkor));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -82,7 +83,8 @@
             this.groupBox1.Size = new System.Drawing.Size(408, 205);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Témakörök";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton7
             // 
@@ -198,14 +200,15 @@
             this.buttonTovabbTemakorhoz.Name = "buttonTovabbTemakorhoz";
             this.buttonTovabbTemakorhoz.Size = new System.Drawing.Size(89, 38);
             this.buttonTovabbTemakorhoz.TabIndex = 4;
-            this.buttonTovabbTemakorhoz.Text = "Tovább a témakörökhöz";
+            this.buttonTovabbTemakorhoz.Text = "További témakörök";
             this.buttonTovabbTemakorhoz.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-600, -8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(282, 225);
+            this.pictureBox1.Size = new System.Drawing.Size(1519, 534);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

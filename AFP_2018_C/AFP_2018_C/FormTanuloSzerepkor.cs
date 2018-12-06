@@ -26,5 +26,10 @@ namespace AFP_2018_C
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
