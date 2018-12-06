@@ -188,8 +188,17 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 
-9)Adatbázis terv:
-
+9)Adatbázis terv: (Részletesebben lásd: Architekturális terv.docx)
+    
+	BEJELENTKEZÉS --> [DIÁK] V [TANÁR] V [SZÜLŐ]
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> MESSENGER
+    [DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (FELHÍVÁSOK)
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (ÓRAREND)
+    [DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (TELJESÍTMÉNYEK)	
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (KÉRDŐÍVEK)
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (FELADATOK)
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (DOLGOZATOK)
 
 10)Implementációs terv:
 
