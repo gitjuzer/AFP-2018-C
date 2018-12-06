@@ -33,16 +33,15 @@ C:\Users\user\Desktop\Új mappa (3)\AFP-2018-C-master\AFP_2018_C\AFP_2018_C\obj\
 C:\Users\user\Desktop\Új mappa (3)\AFP-2018-C-master\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Új mappa (3)\AFP-2018-C-master\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
 C:\Users\user\Desktop\Új mappa (3)\AFP-2018-C-master\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe.config
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.pdb
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojResolveAssemblyReference.cache
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzerepkor.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloSzerepkor.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarCsoportjaim.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarSzerepkor.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloSzerepkor.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.Properties.Resources.resources
-D:\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe.config
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.pdb
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzerepkor.resources
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloSzerepkor.resources
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarSzerepkor.resources
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloSzerepkor.resources
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.Properties.Resources.resources
+C:\Users\user\Desktop\vff\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.GenerateResource.Cache

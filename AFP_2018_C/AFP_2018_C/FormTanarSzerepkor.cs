@@ -30,13 +30,5 @@ namespace AFP_2018_C
             this.Close();
 
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            var myForm = new FormTanarCsoportjaim();
-            this.Hide();
-            myForm.ShowDialog();
-            this.Close();
-        }
     }
 }

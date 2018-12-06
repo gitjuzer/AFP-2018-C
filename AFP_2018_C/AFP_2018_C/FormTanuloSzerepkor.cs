@@ -35,5 +35,10 @@ namespace AFP_2018_C
             this.Close();
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

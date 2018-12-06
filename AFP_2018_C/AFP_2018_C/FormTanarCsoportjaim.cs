@@ -16,18 +16,5 @@ namespace AFP_2018_C
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            var myForm = new FormTanarSzerepkor();
-            this.Hide();
-            myForm.ShowDialog();
-            this.Close();
-        }
     }
 }
