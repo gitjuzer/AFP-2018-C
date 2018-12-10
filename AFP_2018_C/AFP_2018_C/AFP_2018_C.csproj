@@ -52,11 +52,23 @@
     <Compile Include="FormSzerepkor.Designer.cs">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSzuloEredmenyek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSzuloEredmenyek.Designer.cs">
+      <DependentUpon>FormSzuloEredmenyek.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSzuloSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSzuloSzerepkor.Designer.cs">
       <DependentUpon>FormSzuloSzerepkor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanarCsoportjaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanarCsoportjaim.Designer.cs">
+      <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTanarSzerepkor.cs">
       <SubType>Form</SubType>
@@ -75,8 +87,14 @@
     <EmbeddedResource Include="FormSzerepkor.resx">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSzuloEredmenyek.resx">
+      <DependentUpon>FormSzuloEredmenyek.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSzuloSzerepkor.resx">
       <DependentUpon>FormSzuloSzerepkor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTanarCsoportjaim.resx">
+      <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTanarSzerepkor.resx">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>

@@ -26,5 +26,13 @@ namespace AFP_2018_C
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var myForm = new FormSzuloEredmenyek();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }
