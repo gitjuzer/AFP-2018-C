@@ -12,9 +12,11 @@ namespace AFP_2018_C
 {
     public partial class FormSzuloEredmenyek : Form
     {
+        
         public FormSzuloEredmenyek()
         {
             InitializeComponent();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -24,5 +26,7 @@ namespace AFP_2018_C
             myForm.ShowDialog();
             this.Close();
         }
+
+        
     }
 }
