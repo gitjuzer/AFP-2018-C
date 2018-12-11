@@ -48,3 +48,278 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 3. Részletes rendszerterv:
+
+
+1)Rendszer célja:
+
+    A program célja, hogy könnyebbé, érdekesebbé, izgalmasabbá, és elérhetőbbé tegye az iskolákban alkalmazott oktatást.
+    Azonnali kapcsolat felvétel bizotsítása a rendszert használó felhasználók között. Rengeteg feltöltött oktatási anyag elérése.
+    Rendszerbeli dolgozatok, és felhasználók általi közzétett felhívások.
+	
+    A rendszernek NEM célja, hogy teljes egészében lecserélje a tantermi oktatást, sőt inkább erősíti azt. 
+    Nem egy teljesen online iskola rendszert szeretnénk kiépíteni, hanem a már meglévő rendszert segíteni, így már az előbbiekben felsoroltá tenni a tanulást.
+	
+	
+2)Projekt terv:
+
+    Ugye egy sikeres csapat projekthez bekell osztani a munkát és szerepköröket kialakítani.
+	
+    Szerepkörök:
+	    -A program stílusa: Itt tervezzük a program kinézetétt. Betűstílus, betűméret, ablakok, gombok, hátterek, jólláthatóság, stb.
+		-Jogosultságok: Itt állítjuk be, hogy az egyes felhasználók mit láthassanak,és mihez férhessenek hozzá.
+		-Kommunikáció: A felhasználók közötti (szinte) azonnali kapcsolat biztósítása, valamint a felhívások helyes megjelenítése.
+		-Program Fejlesztése: Magát a programot tesztelő és elkészítő szerepkör.
+	
+	Mérföldkövek:
+		1.Program részletes vázlatának elkészítése (12.06 -ig)
+		2.Program vázlatának tesztelése (12.13 -ig)
+		3.Program stílusának véglegesítése
+		4.Külöböző interfacek integrálása.
+		5.Felhasználók felvétele. 
+		6.Jogosultságok tesztelése.
+		7.Felhasználók közötti kapcsolat tesztelése.
+		8.Program befejezése.
+
+		
+3)Üzleti folyamatok modellje:
+    
+	Üzleti szereplők: Az üzleti szereplők azok akik valami féle módon, felhasználóként vagy adminként, interaktiválnak magával a programmal.
+	    -Eladó: 
+		    Ezek lennénk mi, hacsak nem egy ismertebb forgalmazóhoz megyünk hogy több egységet tudjunk eladni.
+		    Az eladónak fontos a reklámozás, hogy minél több ember lássa mit is árulunk. Ugyan úgy fontos a hírnév, hisz ki akar bármit is venni rosz hírnévű cégtől.
+			Mivel itt mi vagyunk az eladók, ezért nekünk kell biztosítanunk a programunk helyes működését, valamint annak frissítését és javítását.
+		
+        -Felhasználók / vásárlók:
+		    Ide tartoznak az iskolarendszerek, és azon belül a programot használó különböző felhasználók.
+			A felhasználók biztosítják majd a visszajelzést, azt hogy micsodán tudnánk javítani a program következő verzióiban.
+		
+        -Adminok:
+            Gyakorlatilag az iskolarendszerhez tartozó emberek, akik a programot kezelik majd az iskolában.
+            Ők fogják majd továbbítani a felhasználók általi visszajelzést, valamint helyi program hibával is ők fognak foglalkoznak.			
+	    	
+	Üzleti folyamatok:
+	    -Program részletes vázlatának elkészítése és azt bemutatni különböző cégeknek / iskoláknak / stb.
+		-Program elkészítése a vázlat és a kapott visszajelzések alapján.
+		-Kész program tesztelése felhasználókkal.
+		-Program kiadása.
+		-Program folyamatos hibajavítása és frissítése.
+				     
+4)Követelmények:
+
+	Funkcionális követelmények:
+		Felhasználók adatainak tárolása.
+		Felhasználók csoportokba szervezése.
+		Figyelem felkeltő felületek.
+		Androidon és webes környezeten való müködés.
+	Nem funkcionális követelmények:
+		-
+	Törvényi előírások, szabványok:
+		GDPR-nek való megfelelés.
+
+5)Funkcionális terv:
+
+	Mivel különböző jogkörű felhasználókat kell megkülönböztetnünk, ezért őket egy csoportba kell szervezni.
+	Erre egy névteret kellene használni, ebbe nem csak a felhasználói osztályokat, hanem az ehhez tartozó adatokat -jegyek, üzenetek- is lehetne tárolni.
+	így az elkülönülne a játékoktól, megkönnyítené a kódbeli tájékozódást.
+	A Users névtér alatt tárolnánk a User őst, ami a minden felhasználóra érvényes adatokat tárolná.
+	Ebből már könnyen származtatható a Igazgató, Admin, Tanár, Diák, Szülő, Ügyintéző, és a további továbbfejlesztés is könnyen megoldható.
+	A felhasználói osztályok funkcióját nem részletezném, ez a funspec 9. fejezetében megtalálható.
+
+6)Fizikai környezet:
+-Programunkat Android és web platformra hordozható eszközök(okostelefonok,táblagépek és PC-k)számára.
+-Van tűzfal a hálózaton és minden portot is engedélyez. 
+-Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:  - Android studio
+			- Visual studio Community 2017 - version 15.9.3
+			- .NET Framework - version 4.7.03062
+			- Notepad++
+			
+7)Absztrakt domain modell:
+
+  -A rendszer célja, hogy a felhasználó játékos körülmények között tudjon tanulni, különböző feladatokat megoldani. 
+  -Fontos megjegyezni, hogy fiatal korosztályra való tekintettel a felületnek egyszerűnek, jól átláthatónak kell lennie.
+  -A Tanuló meg tudja nézni az eddigi pontszámait,elért eredményeket, esetleg egy ranglista az adott témakőrben (szükség lesz adatbázisra).
+  -Külön képernyő/fül legyen a diákoknak, tanároknak, igazgatónak, Szülőknek, Adminnak, ügyintézőnek.
+  -Külön képernyőn/fülön legyenek a témák.
+  -A kinézetett lehessen testreszabni.
+  -Szülők/Tanárok/igazgató is láthassák a diák eredméyeit,esetleg az aktivitását.
+  -A tanár tudjon jegyeket adni a diákoknak.
+  -Mivel bejelentkezéssel tudják elérni az alkalmazást,ezért kell egy "login" fül, és ehhez is egy adatbázis.
+  -A program tudjon kommunikálni ezzekkel az adatbázisokkal valós idejüleg.
+  -A szoftver elérhető legyen Windowson és Androidon. 
+  -A szoftver külső beavatkozás nélkül tudjon mérlegelni,pontot számítani (Esetlegesen a tanár minimálisan felül tudjon írni).
+  -A tanár és az igazgató tudjon üzenetet/értesítést küldeni a szülőknek és a diákoknak, valamint dicséreteket és megrovásokat adni a diákoknak amit a szülők is látnak.
+  -Az ügyintéző képes körlevelet küldeni amit meg tud jelőlni "FONTOS" jelzővel, valamint ő a "hibaelhárító".
+  -Az igazgató minenkinek tud üzenetet küldeni.
+  -Ügyintéző mindenkinek tud üzenetet küldeni.
+  -Tanár tud üzenetet küldeni: Szülők, diákok, igazgató, ügyintéző.
+  -Szülő tud üzenetet küldeni: Saját gyerekének, tanároknak.
+  -Az igazgató lássa ugyan azt amit a tanár,ezen felül tudjon "versenyeket" hírdetni, és ezeket díjazni.
+  -Az admin hozzá tudjon férni az összes adatbázishoz, esetlegesen javítani a hibákat, valamint új diákokat, tanárokat tud hozzáadni és meglévőket módosítani.
+
+
+8)Architekturális terv: (Lásd Architekturális terv.docx)
+
+    Alkalmazás rétegei / komponensei:
+        - Bejelentkezés - innen indulki minden.
+		- Főoldal - itt jelennek meg a különböző hírdetések, közlemények, stb. Valamint innen érhető el minden más.
+		- Órarend - diákok, valamint tanárok órái.
+		- Kérdőívek - az iskola alkalmazottak kérhetnek kitöltendő kérdőiveket.
+		- Dolgozat / tesztek - itt láthatók a meghírdetett dolgozatok, és innen lehet őket kitölteni a megadott időpontokban.
+		- Messenger - A felhasználók kommunikálhatnak egymással.
+		- Feladatok - A tanárok addhatnak feladatokat a diákoknak.
+		- Teljesítmények - Diákok és szüleik láthatják az érdemjegyeiket, és dicséreteket, megrovásokat egyaránt.
+	    - Felhívások - tanárok által létrehozható közlemények.
+		
+    Bővithetőség:
+        - A rendszer rengeteg felhasználót bír el, többet mint egy átlagos iskolának van, de ha kell még több hely,
+          akkor könnyen bővithető.
+        - Diákokat a tanárok felvehetnek, de csak az adminisztrátor hagyhatja jóvá a felvételt.
+        - Tanárokat az adminisztrátorok és az igazgató vesznek fel együtt.
+    
+    Biztonsági funkciók:
+        - Bejelentkezésnél hibás jelszónál, vagy felhasználónál nem enged be a rendszer.
+        - Több mint 5 hibás bejelentkezésnél elkéri az 'iskolád' kódját.
+        - Ha az sem működik akkor megkéri, hogy keres meg egy adminisztrátort.
+        - Ha diák vagy szülő próbál hozzáférni egy tanár, esetleg egy adminisztrátor fiókjához, akkor azonnal értesíti a rendszer azt a fiókot
+          (pl. Google bejelentkezés másik gépről.)
+		  
+   
+
+
+
+9)Adatbázis terv: (Részletesebben lásd: Architekturális terv.docx)
+    
+	BEJELENTKEZÉS --> [DIÁK] V [TANÁR] V [SZÜLŐ]
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> MESSENGER
+    [DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (FELHÍVÁSOK)
+	[DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (ÓRAREND)
+    [DIÁK] V [TANÁR] V [SZÜLŐ] --> FŐOLDAL --> (TELJESÍTMÉNYEK)	
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (KÉRDŐÍVEK)
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (FELADATOK)
+	[DIÁK] V [TANÁR] --> FŐOLDAL --> (DOLGOZATOK)
+
+10)Implementációs terv:
+
+    1. Felhasználók felvétele.
+	2. Felvett felhasználók behelyezése a megadott csoportokba (szülő, diák, tanár).
+	3. Felhasználóknak a csoportok által megszabott jogaik beállítása.
+	4. Tanár - diák - szülő kapcsolatok beállítása.
+    5. Messenger - beni szobák létrehozása (Főszoba, osztályok, tanár - szülők, tanár - diákok, stb.)
+	6. Órarend felvétele a diákok és tanároknak.
+	7. Felhívások létrehozásának joga a tanároknak.
+	8. Kérdőívek, Dolgozat / tesztek, feladatok létrehozásának joga a tanároknak.
+	9. Kérdőívek, Dolgozat / tesztek, feladatok kitöltésének joga a diákoknak.
+   10. Teljesítmények elérhetők diákok és szülők számára.
+
+
+11)Tesztterv:
+
+	A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – az alapos tesztelése előre definiált tesztadatokkal, ahol lehetséges, tesztelő eszközökkel kell végezni.
+	A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése.
+
+	Tesztelési metódusok:
+	 -Teszt1
+		- A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
+		-A tesztet a fejlesztők végzik.
+		- Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+
+	 -Teszt2
+		- A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
+		- Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
+
+	Tesztelést igénylő komponensek:
+		A menü elrendezésének ellenőrzése:
+			Elvárt működés: az alsó sávban jelenlévő szerepkörre irányuló gombok azokat a szerepköröket teszik lehetővé amelyek nevei szerepelnek rajtuk.
+		A Tanuló szerepkör:
+			Elvárt működés: a jobb oldalon az "Eredmény" gombra kattintva az eredményeket listázza ki.
+			A témakörök kiválasztásával a helyes témakörön belül kapunk kérdéseket. 
+			A "Tovább a témakörhöz" gomb a kérdésekhez dob.
+		A Tanár szerepkör:
+			Elvárt működés: a bal oldalon elhelyezett "Értékelés" gomb a Tanulók eredményein alapvó jegyeket listázza ki.
+			A "Csoportjaim" gomb a csoportokat teszi láthatóvá. 
+			A "Feladatok" gombra kattintva a új feladatokat és az eddig meglévőeket listázza ki.
+		A Szülő szerepkör:
+			Elvárt működés: Az alsó harmadban lévő "Eredmények megtekintése" gonómra kattintva a fiókhoz rendelt Tanuló eredményei jelennek meg.
+		
+		
+	Tesztelési folyamat leírása:
+	 A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
+	 A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
+	 Az Teszt1 esetén ez a következőket tartalmazza:
+		- Tesztelő neve
+		- Rögzítés ideje
+		- A hiba helye
+		- A hiba leírása
+		- Böngésző neve, amelyben a hiba fellépett
+
+	 A Teszt2 jegyzőkönyvének mezői:
+		- Tesztelő neve
+		- Tesztelt elem
+		- Tesztelt elem funkciója
+		- Tesztelt elem helye az alkalmazásban
+		- A támogatott böngészőkben megfelelően működik-e, vagy sem
+
+	A tesztek után a jegyzőkönyv véglegesítésre kerül, felkerül a verziókezelő rendszerbe. A rögzített
+	hibákat a fejlesztők ellenőrzik, reprodukálják, majd létrehoznak hozzá egy feladatot és javítják.
+
+12)Telepítési terv:
+-A telepítést csak rendszergazdai jogosultsággal rendelkező user végezhesse.
+-Ki lehessen választani hogy hova telepítse a programot.
+-Tartalmazzon Általános Szerződési Feltételeket.
+
+
+13)Karbantartási terv:
+-Az üzemeltetési feladatok és a karbantartás, és vagy hibaelhárítás csak rendszergazdai jogosultsággal legyen elérhető.
+- Ő végezhesse el az uj verzióra való frissítést. 
+- Biztonsági másolat készítése esetleges hiba bekövetkezése okán.
+-Rendszeres vizsgálatot kell tartani a programunk esetleges hibáinak kiküszöbölésére.
+-Az adatbázisban tárolt megoldások helyességét is meg kell vizsgálni.
+- Hibavisszajelzés biztosítása a felhasználók felé.
+ 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
