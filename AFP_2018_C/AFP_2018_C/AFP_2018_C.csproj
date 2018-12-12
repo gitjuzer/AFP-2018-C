@@ -70,10 +70,10 @@
     <Compile Include="tanar\FormTanarCsoportjaim.Designer.cs">
       <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanarSzerepkor.cs">
+    <Compile Include="tanar\FormTanarSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanarSzerepkor.Designer.cs">
+    <Compile Include="tanar\FormTanarSzerepkor.Designer.cs">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTanuloAngol.cs">
@@ -124,10 +124,10 @@
     <Compile Include="szulo\LoginSzulo.Designer.cs">
       <DependentUpon>LoginSzulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginTanar.cs">
+    <Compile Include="tanar\LoginTanar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginTanar.Designer.cs">
+    <Compile Include="tanar\LoginTanar.Designer.cs">
       <DependentUpon>LoginTanar.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginTanulo.cs">
@@ -151,7 +151,7 @@
     <EmbeddedResource Include="tanar\FormTanarCsoportjaim.resx">
       <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTanarSzerepkor.resx">
+    <EmbeddedResource Include="tanar\FormTanarSzerepkor.resx">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTanuloSzerepkor.resx">
@@ -160,7 +160,7 @@
     <EmbeddedResource Include="szulo\LoginSzulo.resx">
       <DependentUpon>LoginSzulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginTanar.resx">
+    <EmbeddedResource Include="tanar\LoginTanar.resx">
       <DependentUpon>LoginTanar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginTanulo.resx">
