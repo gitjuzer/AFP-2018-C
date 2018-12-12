@@ -1,6 +1,6 @@
 ﻿namespace AFP_2018_C
 {
-    partial class Login
+    partial class LoginSzulo
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 43);
+            this.label1.Location = new System.Drawing.Point(47, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 17);
             this.label1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 115);
+            this.label2.Location = new System.Drawing.Point(47, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 17);
             this.label2.TabIndex = 1;
@@ -56,21 +56,21 @@
             // 
             // textBox_username
             // 
-            this.textBox_username.Location = new System.Drawing.Point(41, 63);
+            this.textBox_username.Location = new System.Drawing.Point(50, 63);
             this.textBox_username.Name = "textBox_username";
             this.textBox_username.Size = new System.Drawing.Size(100, 22);
             this.textBox_username.TabIndex = 2;
             // 
             // textBox_password
             // 
-            this.textBox_password.Location = new System.Drawing.Point(41, 135);
+            this.textBox_password.Location = new System.Drawing.Point(50, 135);
             this.textBox_password.Name = "textBox_password";
             this.textBox_password.Size = new System.Drawing.Size(100, 22);
             this.textBox_password.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(56, 174);
+            this.button1.Location = new System.Drawing.Point(65, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(62, 23);
             this.button1.TabIndex = 4;
@@ -81,23 +81,23 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(21, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 17);
             this.label3.TabIndex = 5;
             // 
-            // Login
+            // LoginSzulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(201, 224);
+            this.ClientSize = new System.Drawing.Size(202, 223);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox_password);
             this.Controls.Add(this.textBox_username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Login";
+            this.Name = "LoginSzulo";
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -21,7 +21,7 @@ namespace AFP_2018_C
         private void buttonSzerepkorTanulo_Click(object sender, EventArgs e)
         {
             szerepkor = "tanulo";
-            Login login = new Login();
+            LoginTanulo login = new LoginTanulo();
             this.Hide();
             login.ShowDialog();
             this.Close();
@@ -35,7 +35,7 @@ namespace AFP_2018_C
         private void buttonSzerepkorTanar_Click(object sender, EventArgs e)
         {
             szerepkor = "tanar";
-            Login login = new Login();
+            LoginTanar login = new LoginTanar();
             this.Hide();
             login.ShowDialog();
             this.Close();
@@ -50,7 +50,7 @@ namespace AFP_2018_C
         private void buttonSzerepkorSzulo_Click(object sender, EventArgs e)
         {
             szerepkor = "szulo";
-            Login login = new Login();
+            LoginSzulo login = new LoginSzulo();
             this.Hide();
             login.ShowDialog();
             this.Close();

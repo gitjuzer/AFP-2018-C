@@ -82,11 +82,23 @@
     <Compile Include="FormTanuloSzerepkor.Designer.cs">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="LoginSzulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="LoginSzulo.Designer.cs">
+      <DependentUpon>LoginSzulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginTanar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginTanar.Designer.cs">
+      <DependentUpon>LoginTanar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginTanulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginTanulo.Designer.cs">
+      <DependentUpon>LoginTanulo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,8 +121,14 @@
     <EmbeddedResource Include="FormTanuloSzerepkor.resx">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="LoginSzulo.resx">
+      <DependentUpon>LoginSzulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginTanar.resx">
+      <DependentUpon>LoginTanar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginTanulo.resx">
+      <DependentUpon>LoginTanulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
