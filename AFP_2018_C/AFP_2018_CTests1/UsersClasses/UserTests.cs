@@ -24,6 +24,17 @@ namespace AFP_2018_C.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        
+        [TestMethod]
+        public void UserTestUserPassword1()
+        {
+            string password = "password";
+            User user = new User("username", password);
+
+            string expected = "password";
+
+            string actual = user.Password;
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
