@@ -76,6 +76,42 @@
     <Compile Include="FormTanarSzerepkor.Designer.cs">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTanuloAngol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloAngol.Designer.cs">
+      <DependentUpon>FormTanuloAngol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanuloInformatika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloInformatika.Designer.cs">
+      <DependentUpon>FormTanuloInformatika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanuloIrodalom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloIrodalom.Designer.cs">
+      <DependentUpon>FormTanuloIrodalom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanuloKornyezetismeret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloKornyezetismeret.Designer.cs">
+      <DependentUpon>FormTanuloKornyezetismeret.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanuloMatek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloMatek.Designer.cs">
+      <DependentUpon>FormTanuloMatek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTanuloNemet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTanuloNemet.Designer.cs">
+      <DependentUpon>FormTanuloNemet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTanuloSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
