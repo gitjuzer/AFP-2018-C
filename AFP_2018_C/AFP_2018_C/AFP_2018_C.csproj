@@ -52,22 +52,22 @@
     <Compile Include="FormSzerepkor.Designer.cs">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSzuloEredmenyek.cs">
+    <Compile Include="szulo\FormSzuloEredmenyek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSzuloEredmenyek.Designer.cs">
+    <Compile Include="szulo\FormSzuloEredmenyek.Designer.cs">
       <DependentUpon>FormSzuloEredmenyek.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSzuloSzerepkor.cs">
+    <Compile Include="szulo\FormSzuloSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSzuloSzerepkor.Designer.cs">
+    <Compile Include="szulo\FormSzuloSzerepkor.Designer.cs">
       <DependentUpon>FormSzuloSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanarCsoportjaim.cs">
+    <Compile Include="tanar\FormTanarCsoportjaim.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanarCsoportjaim.Designer.cs">
+    <Compile Include="tanar\FormTanarCsoportjaim.Designer.cs">
       <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTanarSzerepkor.cs">
@@ -118,10 +118,10 @@
     <Compile Include="FormTanuloSzerepkor.Designer.cs">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginSzulo.cs">
+    <Compile Include="szulo\LoginSzulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginSzulo.Designer.cs">
+    <Compile Include="szulo\LoginSzulo.Designer.cs">
       <DependentUpon>LoginSzulo.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginTanar.cs">
@@ -142,13 +142,13 @@
     <EmbeddedResource Include="FormSzerepkor.resx">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSzuloEredmenyek.resx">
+    <EmbeddedResource Include="szulo\FormSzuloEredmenyek.resx">
       <DependentUpon>FormSzuloEredmenyek.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSzuloSzerepkor.resx">
+    <EmbeddedResource Include="szulo\FormSzuloSzerepkor.resx">
       <DependentUpon>FormSzuloSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTanarCsoportjaim.resx">
+    <EmbeddedResource Include="tanar\FormTanarCsoportjaim.resx">
       <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTanarSzerepkor.resx">
@@ -157,7 +157,7 @@
     <EmbeddedResource Include="FormTanuloSzerepkor.resx">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginSzulo.resx">
+    <EmbeddedResource Include="szulo\LoginSzulo.resx">
       <DependentUpon>LoginSzulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginTanar.resx">
@@ -188,7 +188,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="tanulo\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Képek\szerepkorok_hatter.jpg" />
     <Content Include="Képek\szulo_hatter.jpg" />
