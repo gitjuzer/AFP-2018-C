@@ -1,0 +1,17 @@
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_CTests1.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_CTests1.pdb
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.exe
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.pdb
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.exe.config
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csprojAssemblyReference.cache
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csproj.CoreCompileInputs.cache
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csproj.CopyComplete
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.dll
+E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.pdb
