@@ -33,14 +33,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.buttonTovabbTemakorhoz = new System.Windows.Forms.Button();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.buttonTovabbTemakorhoz = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -92,6 +93,16 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Német nyelv";
             this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // buttonTovabbTemakorhoz
+            // 
+            this.buttonTovabbTemakorhoz.Location = new System.Drawing.Point(313, 149);
+            this.buttonTovabbTemakorhoz.Name = "buttonTovabbTemakorhoz";
+            this.buttonTovabbTemakorhoz.Size = new System.Drawing.Size(89, 38);
+            this.buttonTovabbTemakorhoz.TabIndex = 4;
+            this.buttonTovabbTemakorhoz.Text = "Tovább a témakörhöz";
+            this.buttonTovabbTemakorhoz.UseVisualStyleBackColor = true;
+            this.buttonTovabbTemakorhoz.Click += new System.EventHandler(this.buttonTovabbTemakorhoz_Click_1);
             // 
             // radioButton8
             // 
@@ -153,16 +164,6 @@
             this.radioButton1.Text = "Matematika";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // buttonTovabbTemakorhoz
-            // 
-            this.buttonTovabbTemakorhoz.Location = new System.Drawing.Point(313, 149);
-            this.buttonTovabbTemakorhoz.Name = "buttonTovabbTemakorhoz";
-            this.buttonTovabbTemakorhoz.Size = new System.Drawing.Size(89, 38);
-            this.buttonTovabbTemakorhoz.TabIndex = 4;
-            this.buttonTovabbTemakorhoz.Text = "Tovább a témakörhöz";
-            this.buttonTovabbTemakorhoz.UseVisualStyleBackColor = true;
-            this.buttonTovabbTemakorhoz.Click += new System.EventHandler(this.buttonTovabbTemakorhoz_Click_1);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -175,19 +176,32 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(826, 12);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(801, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 35);
             this.button1.TabIndex = 5;
             this.button1.Text = "Vissza";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(12, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 35);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Messenger";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormTanuloSzerepkor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 521);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
@@ -216,5 +230,6 @@
         private System.Windows.Forms.Button buttonTovabbTemakorhoz;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

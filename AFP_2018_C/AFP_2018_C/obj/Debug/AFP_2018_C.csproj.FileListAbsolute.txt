@@ -81,3 +81,21 @@ C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018
 C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojAssemblyReference.cache
 C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
 C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojResolveAssemblyReference.cache
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzerepkor.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloEredmenyek.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloSzerepkor.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarCsoportjaim.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarSzerepkor.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloSzerepkor.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginSzulo.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginTanar.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginTanulo.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.Properties.Resources.resources
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.GenerateResource.Cache
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.CoreCompileInputs.cache
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe.config
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe
+D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.pdb

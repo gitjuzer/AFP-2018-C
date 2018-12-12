@@ -108,5 +108,13 @@ namespace AFP_2018_C
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Messenger messenger = new Messenger();
+            this.Hide();
+            messenger.ShowDialog();
+            this.Close();
+        }
     }
 }

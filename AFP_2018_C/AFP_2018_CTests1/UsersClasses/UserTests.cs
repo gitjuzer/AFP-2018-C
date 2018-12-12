@@ -36,5 +36,23 @@ namespace AFP_2018_C.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException),
+            "A password nem lehet 8 karakternél kisebb")]
+        public void UserTestUserPasswordKisebb()
+        {
+            string password = "passwor";
+            User user = new User("username", password);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException),
+            "A password nem lehet 32 karakternél nagyobb")]
+        public void UserTestUserPasswordNagyobb()
+        {
+            string password = "012345678901234567890123456789012";
+            User user = new User("username", password);
+        }
     }
 }
