@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.UsersClasses
 {
-    class Diak
+    class Diak : User
     {
+        public Diak(string username, string password) : base(username, password)
+        {
+        }
     }
 }

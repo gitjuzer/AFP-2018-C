@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.UsersClasses
 {
-    class Tanar
+    class Tanar : User
     {
+        public Tanar(string username, string password) : base(username, password)
+        {
+        }
     }
 }

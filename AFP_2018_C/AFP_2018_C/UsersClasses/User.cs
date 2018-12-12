@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C
 {
-    class User
+    public class User
     {
         private string username;
         private string password;
