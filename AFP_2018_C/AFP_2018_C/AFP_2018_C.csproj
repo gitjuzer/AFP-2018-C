@@ -76,46 +76,46 @@
     <Compile Include="tanar\FormTanarSzerepkor.Designer.cs">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloAngol.cs">
+    <Compile Include="tanulo\FormTanuloAngol.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloAngol.Designer.cs">
+    <Compile Include="tanulo\FormTanuloAngol.Designer.cs">
       <DependentUpon>FormTanuloAngol.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloInformatika.cs">
+    <Compile Include="tanulo\FormTanuloInformatika.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloInformatika.Designer.cs">
+    <Compile Include="tanulo\FormTanuloInformatika.Designer.cs">
       <DependentUpon>FormTanuloInformatika.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloIrodalom.cs">
+    <Compile Include="tanulo\FormTanuloIrodalom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloIrodalom.Designer.cs">
+    <Compile Include="tanulo\FormTanuloIrodalom.Designer.cs">
       <DependentUpon>FormTanuloIrodalom.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloKornyezetismeret.cs">
+    <Compile Include="tanulo\FormTanuloKornyezetismeret.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloKornyezetismeret.Designer.cs">
+    <Compile Include="tanulo\FormTanuloKornyezetismeret.Designer.cs">
       <DependentUpon>FormTanuloKornyezetismeret.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloMatek.cs">
+    <Compile Include="tanulo\FormTanuloMatek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloMatek.Designer.cs">
+    <Compile Include="tanulo\FormTanuloMatek.Designer.cs">
       <DependentUpon>FormTanuloMatek.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloNemet.cs">
+    <Compile Include="tanulo\FormTanuloNemet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloNemet.Designer.cs">
+    <Compile Include="tanulo\FormTanuloNemet.Designer.cs">
       <DependentUpon>FormTanuloNemet.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTanuloSzerepkor.cs">
+    <Compile Include="tanulo\FormTanuloSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTanuloSzerepkor.Designer.cs">
+    <Compile Include="tanulo\FormTanuloSzerepkor.Designer.cs">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </Compile>
     <Compile Include="szulo\LoginSzulo.cs">
@@ -130,10 +130,10 @@
     <Compile Include="tanar\LoginTanar.Designer.cs">
       <DependentUpon>LoginTanar.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginTanulo.cs">
+    <Compile Include="tanulo\LoginTanulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginTanulo.Designer.cs">
+    <Compile Include="tanulo\LoginTanulo.Designer.cs">
       <DependentUpon>LoginTanulo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -154,7 +154,7 @@
     <EmbeddedResource Include="tanar\FormTanarSzerepkor.resx">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTanuloSzerepkor.resx">
+    <EmbeddedResource Include="tanulo\FormTanuloSzerepkor.resx">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="szulo\LoginSzulo.resx">
@@ -163,7 +163,7 @@
     <EmbeddedResource Include="tanar\LoginTanar.resx">
       <DependentUpon>LoginTanar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginTanulo.resx">
+    <EmbeddedResource Include="tanulo\LoginTanulo.resx">
       <DependentUpon>LoginTanulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -188,9 +188,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="tanulo\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Képek\szerepkorok_hatter.jpg" />
     <Content Include="Képek\szulo_hatter.jpg" />
