@@ -33,6 +33,7 @@
             this.textBox_username = new System.Windows.Forms.TextBox();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -77,11 +78,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 5;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(193, 224);
+            this.ClientSize = new System.Drawing.Size(201, 224);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox_password);
             this.Controls.Add(this.textBox_username);
@@ -101,5 +111,6 @@
         private System.Windows.Forms.TextBox textBox_username;
         private System.Windows.Forms.TextBox textBox_password;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
     }
 }

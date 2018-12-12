@@ -66,13 +66,5 @@ namespace AFP_2018_C
         {
             this.Close();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            this.Hide();
-            login.ShowDialog();
-            this.Close();
-        }
     }
 }

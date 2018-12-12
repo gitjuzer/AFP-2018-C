@@ -21,6 +21,7 @@ namespace AFP_2018_C
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label3.Text = "";
             if(textBox_username.Text =="admin" && textBox_password.Text == "admin")
             {
                 if (szerepkor == "tanulo")
@@ -47,6 +48,9 @@ namespace AFP_2018_C
                     this.Close();
                 }
             }
+            label3.Text = "Sikertelen bejelentkezés!";
+            textBox_password.Text = "";
+            textBox_username.Text = "";
         }
     }
 }

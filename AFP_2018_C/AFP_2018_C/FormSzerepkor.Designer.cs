@@ -34,7 +34,6 @@
             this.buttonSzerepkorSzulo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button_kilepes = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSzerepkorTanulo
@@ -91,23 +90,12 @@
             this.button_kilepes.UseVisualStyleBackColor = true;
             this.button_kilepes.Click += new System.EventHandler(this.button_kilepes_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(673, 151);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 40);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "login teszt";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FormSzerepkor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(850, 447);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.button_kilepes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSzerepkorSzulo);
@@ -128,7 +116,6 @@
         private System.Windows.Forms.Button buttonSzerepkorSzulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button_kilepes;
-        private System.Windows.Forms.Button button1;
     }
 }
 
