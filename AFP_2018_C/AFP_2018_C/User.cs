@@ -14,13 +14,33 @@ namespace AFP_2018_C
         public string Username
         {
             get { return username; }
-            set { username = value; }
+            set
+            {
+                if (value == null)
+                    throw new ArgumentNullException();
+                if (value.Length < 3)
+                    throw new ArgumentOutOfRangeException();
+                if (value.Length > 32)
+                    throw new ArgumentOutOfRangeException();
+
+                username = value;
+            }
         }
 
         public string Password
         {
             get { return password; }
-            set { password = value; }
+            set
+            {
+                if (value == null)
+                    throw new ArgumentNullException();
+                if (value.Length < 8)
+                    throw new ArgumentOutOfRangeException();
+                if (value.Length > 32)
+                    throw new ArgumentOutOfRangeException();
+
+                password = value;
+            }
         }
 
         public User(string username, string password)
