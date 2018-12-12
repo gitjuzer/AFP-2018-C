@@ -1,13 +1,15 @@
 ﻿Követelmény specifikáció a Játékos oktatás projekthez.
 
 1. Áttekintés
+
 	A programnak az oktatásban vehetik hasznát. Főként a fiatalabb korosztálynak hasznos, akik nehezen tudják feldolgozni a száraz tananyagot.
 	A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
 	Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
 	köré, hogy még több motivációt érjünk el a tanulóknál. A program rendelkezik több különféle játéklehetőséggel így mindenki megtalálhatja
 	a számára legalkalmasabbat. A program könnyen kezelhető, így bárki hamar elsajátíthatja a használatát.
 
-2. Vágyálomrendszer(15-20 sor)
+2. Vágyálomrendszer
+
 	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
 	 -Mi lehet a kérdés?- Megkapod a válaszokat találd ki a kérdést!
 	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
@@ -15,8 +17,8 @@
 	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
 	 Ezzel a programmal szeretnénk elérni hogy a tanulók -ha már úgy is a telefonjukon és a gépen lógnak- tanuljanak is valamit miközben szórakoztató tényekekkel bővül a tudásuk. Továbbá szüleik is kézben tudják tartani gyermekük iskolai teljesítményét.
 	 
-
 3. Követelmény lista
+
 	Figyelemfelkeltő legyen a userek számára.
 	Ha kisgyerekek oktatásáról van szó legyen egy adminisztrációs rész, amit a tanár/szülő tud kezelni/ellenőrizni.
 	Változatos legyen és ne monoton.
@@ -24,6 +26,7 @@
 	Egymás tudását összemérő "versenyek" a jobb teljesítés vágy érdekében.
 
 4. Jelenlegi helyzet
+
 	Több oktatóprogram is van a piacon, ezek szinte minden területen oktatnak, korosztályonként változó nehézséggel, jó megoldást nyújthatnak otthoni, játékos tanulásra.
 	Ilyen például a Profi-Média Kft. Manó oktatójáték sorozata (lásd: http://www.profi-media.com/kateg-3-1-mano-oktatoprogramok.html). 
 	Sok témában, inkább a kisebb korosztálynak oktat, sok mesét, beszélő elemeket tartalmaz. 
@@ -31,6 +34,7 @@
 	Ami nagyon ritka ezekben a programokban, az a tanár-diák szerep, csak egyszemélyes felhasználás, így a diákok elért eredményeit sem tárolja, ami tanórai kereteken belül lehet hátrány.
 
 5. Jelenlegi üzleti folyamatok modellje
+
 	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat,
 	amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a következő tevékenységeket szoktuk elvégezni:
 
@@ -40,7 +44,6 @@
 	4.üzleti folyamatok modellezése.
 
 6. Igényelt üzleti folyamatok modellje
-
 
 	Üzleti folyamatokat nem csak külső szereplők, hanem belső szereplők is használhatnak, azaz minden üzleti folyamatot fel kell venni, amit a szereplők az üzleti folyamat során végeznek.
 	Üzleti folyamat diagram (Business Use Case Diagram): Az  üzleti  folyamat 
@@ -85,6 +88,7 @@
 
 
 7. Fogalomszótár
+
 	Üzleti  folyamat  (Business  Use  Case): 
 		Egy  helyen  és  egy  időben  végrehajtott  folyamat,  amely 
 		valamely  üzleti  szereplő  vagy  üzleti  munkatárs  számára  értéket  termel.
