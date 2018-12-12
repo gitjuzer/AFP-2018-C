@@ -78,3 +78,6 @@ C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018
 C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginSzulo.resources
 C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginTanar.resources
 C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.LoginTanulo.resources
+C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojAssemblyReference.cache
+C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
+C:\Users\Patrik\Documents\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
