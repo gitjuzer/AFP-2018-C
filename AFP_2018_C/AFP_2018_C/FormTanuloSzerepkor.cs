@@ -40,5 +40,10 @@ namespace AFP_2018_C
         {
 
         }
+
+        private void button_kilepes_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

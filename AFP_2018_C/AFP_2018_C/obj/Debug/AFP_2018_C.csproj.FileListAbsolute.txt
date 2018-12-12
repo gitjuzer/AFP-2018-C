@@ -60,3 +60,18 @@ C:\Users\user\Desktop\EKE_TTK_PTI_BSc\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug
 C:\Users\user\Desktop\EKE_TTK_PTI_BSc\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
 C:\Users\user\Desktop\EKE_TTK_PTI_BSc\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarCsoportjaim.resources
 C:\Users\user\Desktop\EKE_TTK_PTI_BSc\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloEredmenyek.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe.config
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.exe
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\AFP_2018_C.pdb
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csprojAssemblyReference.cache
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzerepkor.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloEredmenyek.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloSzerepkor.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarCsoportjaim.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarSzerepkor.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloSzerepkor.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.Properties.Resources.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.GenerateResource.cache
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.CoreCompileInputs.cache
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb

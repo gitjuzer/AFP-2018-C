@@ -33,12 +33,13 @@
             this.buttonSzerepkorTanar = new System.Windows.Forms.Button();
             this.buttonSzerepkorSzulo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button_kilepes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSzerepkorTanulo
             // 
             this.buttonSzerepkorTanulo.Location = new System.Drawing.Point(22, 406);
-            this.buttonSzerepkorTanulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSzerepkorTanulo.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSzerepkorTanulo.Name = "buttonSzerepkorTanulo";
             this.buttonSzerepkorTanulo.Size = new System.Drawing.Size(100, 28);
             this.buttonSzerepkorTanulo.TabIndex = 0;
@@ -49,7 +50,7 @@
             // buttonSzerepkorTanar
             // 
             this.buttonSzerepkorTanar.Location = new System.Drawing.Point(380, 406);
-            this.buttonSzerepkorTanar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSzerepkorTanar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSzerepkorTanar.Name = "buttonSzerepkorTanar";
             this.buttonSzerepkorTanar.Size = new System.Drawing.Size(100, 28);
             this.buttonSzerepkorTanar.TabIndex = 1;
@@ -60,7 +61,7 @@
             // buttonSzerepkorSzulo
             // 
             this.buttonSzerepkorSzulo.Location = new System.Drawing.Point(686, 406);
-            this.buttonSzerepkorSzulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSzerepkorSzulo.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSzerepkorSzulo.Name = "buttonSzerepkorSzulo";
             this.buttonSzerepkorSzulo.Size = new System.Drawing.Size(100, 28);
             this.buttonSzerepkorSzulo.TabIndex = 2;
@@ -79,17 +80,28 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Válassz szerepkört!";
             // 
+            // button_kilepes
+            // 
+            this.button_kilepes.Location = new System.Drawing.Point(13, 13);
+            this.button_kilepes.Name = "button_kilepes";
+            this.button_kilepes.Size = new System.Drawing.Size(75, 23);
+            this.button_kilepes.TabIndex = 4;
+            this.button_kilepes.Text = "Kilépés";
+            this.button_kilepes.UseVisualStyleBackColor = true;
+            this.button_kilepes.Click += new System.EventHandler(this.button_kilepes_Click);
+            // 
             // FormSzerepkor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(850, 447);
+            this.Controls.Add(this.button_kilepes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSzerepkorSzulo);
             this.Controls.Add(this.buttonSzerepkorTanar);
             this.Controls.Add(this.buttonSzerepkorTanulo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSzerepkor";
             this.Text = "Játékos tanulás";
             this.ResumeLayout(false);
@@ -103,6 +115,7 @@
         private System.Windows.Forms.Button buttonSzerepkorTanar;
         private System.Windows.Forms.Button buttonSzerepkorSzulo;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button_kilepes;
     }
 }
 
