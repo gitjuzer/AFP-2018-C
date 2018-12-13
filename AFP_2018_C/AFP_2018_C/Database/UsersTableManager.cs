@@ -57,6 +57,23 @@ namespace AFP_2018_C.Database
 
             command.Connection = getConnection();
             return command.ExecuteNonQuery() == -1;
+
+        }
+
+        public bool Delete(User user)
+        {
+            OracleCommand command = new OracleCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "DELETE FROM Users WHERE username = :username;";
+
+            OracleParameter username = new OracleParameter();
+            username.ParameterName = ":username";
+            username.DbType = System.Data.DbType.String;
+            username.Value = user.Username;
+            command.Parameters.Add(username);
+
+            command.Connection = getConnection();
+            return command.ExecuteNonQuery() == -1;
         }
     }
 }
