@@ -146,12 +146,13 @@
 
 10. Forgatókönyv
      
-     A program elsődleges célja az oktatás, méghozzá olyan formában ami egyszerre szórakoztatja a tanulót,
+     A program célja az oktatás, szórakoztató formában,
      ezáltal nagyobb hatást érünk el a
-     mint a szokásos tankönyvi anyaggal. A program tartalmazzon szülő szerepkört. Az alkalmazás külön szerepkörökre osztja a   	         	felhasználókat.
-     Minden szerepkörnek megvannak a sajátosságai
-     amihez hozzáférhetnek. Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket,
+     mint a szokásos tankönyvi anyaggal.
+    Aanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket,
      megjegyzéseket fűzhet hozzá
-     vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz.
-     A feladatsorokat nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
+     vagy összeállíthat új feladatsorokat,tanuló pedig hozzáfér ezzekhez.
+     A feladatsorokat nyílvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra.
+     Elsőnek legyen egy választó ablak,ahol ki tudja választani az user a szerepkörét,majd egy login ablak.Legyenek választrható fülek
+     ahol ki lehet választani a témákat. Mindenkinek legyen egy üzenetek füle,valamint a tanároknak jegybeírásra lehetőség.
      
