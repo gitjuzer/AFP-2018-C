@@ -100,8 +100,10 @@
 	Két  Business Use Case között kétféle kapcsolat lehet:
 		-extend,
 		-include.
-		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
-		Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,  ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
+		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során,
+		ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
+		Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,
+		ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
 
 	Üzleti folyamat lefutás (Business Use Case Realization): 
 		üzleti folyamat:
@@ -109,7 +111,7 @@
 			-üzleti szereplőinek, és 
 			-az üzleti entitások kapcsolatát.
 
-		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity   diagramokat úgynevezett  swimlane-ekre  osztjuk.
+		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity   diagramokat               		úgynevezett  swimlane-ekre  osztjuk.
 		Minden  swimlane-hez  rendelünk egy  üzleti  szereplőt.  Az  egyes 
 		swimlane-ekben a megadott üzleti szereplő tevékenységeit vesszük fel.
 
