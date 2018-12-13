@@ -268,6 +268,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 -A telepítést csak rendszergazdai jogosultsággal rendelkező user végezhesse.
 -Ki lehessen választani hogy hova telepítse a programot.
 -Tartalmazzon Általános Szerződési Feltételeket.
+-Lehessen az automatikus frissítések fogadását vagy nem fogadását kiválasztani.
 
 
 13)Karbantartási terv:
