@@ -10,6 +10,7 @@ namespace AFP_2018_C
     {
         private string username;
         private string password;
+        private string szerepkor;
 
         public string Username
         {
@@ -43,10 +44,23 @@ namespace AFP_2018_C
             }
         }
 
+        public string Szerepkor
+        {
+            get { return szerepkor; }
+            set
+            {
+                if (value == null)
+                    throw new NullReferenceException();
+                szerepkor = value;
+            }
+        }
+
         public User(string username, string password)
         {
             Username = username;
             Password = password;
         }
+
+        public User() { }
     }
 }

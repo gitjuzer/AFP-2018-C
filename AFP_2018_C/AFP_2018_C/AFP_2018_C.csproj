@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\BaseDatabaseManager.cs" />
+    <Compile Include="Database\UsersTableManager.cs" />
     <Compile Include="FormSzerepkor.cs">
       <SubType>Form</SubType>
     </Compile>
