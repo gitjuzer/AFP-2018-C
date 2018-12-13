@@ -116,3 +116,20 @@ D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\A
 D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerSzuloDiak.resources
 D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerSzuloTanar.resources
 D:\Projekt Labor\Játékos oktatás\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessenger.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerAdminSzulo.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerSzulo.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerSzuloDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessengerSzuloTanar.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormSzuloMessenger.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarMessenger.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarMessengerAdminTanar.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarMessengerSzuloTanar.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarMessengerTanar.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanarMessengerTanarDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMatek.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMessenger.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMessengerAdminDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMessengerDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMessengerSzuloDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloMessengerTanarDiak.resources
+C:\Users\Gubek David\Desktop\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.FormTanuloNemet.resources

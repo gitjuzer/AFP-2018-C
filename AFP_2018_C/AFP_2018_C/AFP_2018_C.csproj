@@ -331,6 +331,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Képek\login_background.jpg" />
     <Content Include="Képek\szerepkorok_hatter.jpg" />
     <Content Include="Képek\szulo_hatter.jpg" />
     <Content Include="Képek\tanar_hatter.jpg" />
