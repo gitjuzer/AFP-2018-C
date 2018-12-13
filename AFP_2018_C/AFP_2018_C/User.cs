@@ -51,6 +51,8 @@ namespace AFP_2018_C
             {
                 if (value == null)
                     throw new NullReferenceException();
+                if (value != "admin" || value != "tanulo" || value != "tanar" || value != "szulo")
+                    throw new Exception();
                 szerepkor = value;
             }
         }
