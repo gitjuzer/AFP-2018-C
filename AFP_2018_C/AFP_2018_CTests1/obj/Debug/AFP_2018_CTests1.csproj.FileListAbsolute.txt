@@ -15,3 +15,19 @@ E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018
 E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csproj.CopyComplete
 E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.dll
 E:\PROGRAMOK\projectek\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.pdb
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_CTests1.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_CTests1.pdb
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.exe
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.pdb
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\AFP_2018_C.exe.config
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csprojResolveAssemblyReference.cache
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.csproj.CoreCompileInputs.cache
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.dll
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_CTests1\obj\Debug\AFP_2018_CTests1.pdb
