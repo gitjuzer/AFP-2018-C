@@ -158,7 +158,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
   -Az admin hozzá tudjon férni az összes adatbázishoz, esetlegesen javítani a hibákat, valamint új diákokat, tanárokat tud hozzáadni és meglévőket módosítani.
 
 
-8)Architekturális terv: (Lásd Architekturális terv.docx)
+8)Architekturális terv: (Lásd Architekturális terv (RÉGI).docx)
 
     Alkalmazás rétegei / komponensei:
         - Bejelentkezés - innen indulki minden.
@@ -188,7 +188,7 @@ valamint új diákokat,tanárokat tud hozzáadni és meglévőket módosítani
 
 
 
-9)Adatbázis terv: (Részletesebben lásd: Architekturális terv.docx)
+9)Adatbázis terv: (Részletesebben lásd: Architekturális terv (RÉGI).docx)
     
 	BEJELENTKEZÉS --> [DIÁK] V [TANÁR] V [SZÜLŐ]
 	[DIÁK] V [TANÁR] V [SZÜLŐ] --> MESSENGER
