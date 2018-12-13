@@ -35,13 +35,13 @@
 
 5. Jelenlegi üzleti folyamatok modellje
 
-	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat,
-	amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a következő tevékenységeket szoktuk elvégezni:
+	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve 	 	 meghatározzuk azokat a folyamatokat,amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a 		következő tevékenységeket szoktuk elvégezni:
 
 	1.üzleti szereplő és munkatárs elemzés,
 	2.üzleti folyamat elemzés,
 	3.üzleti entitás elemzés,
 	4.üzleti folyamatok modellezése.
+	5.jelenlegi és jövőbeli üzleti folyamatok modellje
 
 6. Igényelt üzleti folyamatok modellje
 
