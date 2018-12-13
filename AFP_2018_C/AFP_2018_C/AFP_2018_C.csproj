@@ -52,11 +52,95 @@
     <Compile Include="FormSzerepkor.Designer.cs">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Messenger.cs">
+    <Compile Include="szulo\FormSzuloMessengerAdminSzulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Messenger.Designer.cs">
-      <DependentUpon>Messenger.cs</DependentUpon>
+    <Compile Include="szulo\FormSzuloMessengerAdminSzulo.Designer.cs">
+      <DependentUpon>FormSzuloMessengerAdminSzulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzulo.Designer.cs">
+      <DependentUpon>FormSzuloMessengerSzulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzuloDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzuloDiak.Designer.cs">
+      <DependentUpon>FormSzuloMessengerSzuloDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzuloTanar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessengerSzuloTanar.Designer.cs">
+      <DependentUpon>FormSzuloMessengerSzuloTanar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerAdminTanar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerAdminTanar.Designer.cs">
+      <DependentUpon>FormTanarMessengerAdminTanar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerSzuloTanar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerSzuloTanar.Designer.cs">
+      <DependentUpon>FormTanarMessengerSzuloTanar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerTanar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerTanar.Designer.cs">
+      <DependentUpon>FormTanarMessengerTanar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerTanarDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessengerTanarDiak.Designer.cs">
+      <DependentUpon>FormTanarMessengerTanarDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerAdminDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerAdminDiak.Designer.cs">
+      <DependentUpon>FormTanuloMessengerAdminDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerDiak.Designer.cs">
+      <DependentUpon>FormTanuloMessengerDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerSzuloDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerSzuloDiak.Designer.cs">
+      <DependentUpon>FormTanuloMessengerSzuloDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerTanarDiak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessengerTanarDiak.Designer.cs">
+      <DependentUpon>FormTanuloMessengerTanarDiak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="szulo\FormSzuloMessenger.Designer.cs">
+      <DependentUpon>FormSzuloMessenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanar\FormTanarMessenger.Designer.cs">
+      <DependentUpon>FormTanarMessenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanulo\FormTanuloMessenger.Designer.cs">
+      <DependentUpon>FormTanuloMessenger.cs</DependentUpon>
     </Compile>
     <Compile Include="szulo\FormSzuloEredmenyek.cs">
       <SubType>Form</SubType>
@@ -148,8 +232,23 @@
     <EmbeddedResource Include="FormSzerepkor.resx">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="szulo\FormSzuloMessengerAdminSzulo.resx">
+      <DependentUpon>FormSzuloMessengerAdminSzulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="szulo\FormSzuloMessengerSzulo.resx">
+      <DependentUpon>FormSzuloMessengerSzulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="szulo\FormSzuloMessengerSzuloDiak.resx">
+      <DependentUpon>FormSzuloMessengerSzuloDiak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="szulo\FormSzuloMessengerSzuloTanar.resx">
+      <DependentUpon>FormSzuloMessengerSzuloTanar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="szulo\FormSzuloEredmenyek.resx">
       <DependentUpon>FormSzuloEredmenyek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="szulo\FormSzuloMessenger.resx">
+      <DependentUpon>FormSzuloMessenger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="szulo\FormSzuloSzerepkor.resx">
       <DependentUpon>FormSzuloSzerepkor.cs</DependentUpon>
@@ -157,8 +256,44 @@
     <EmbeddedResource Include="tanar\FormTanarCsoportjaim.resx">
       <DependentUpon>FormTanarCsoportjaim.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tanar\FormTanarMessenger.resx">
+      <DependentUpon>FormTanarMessenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanar\FormTanarMessengerAdminTanar.resx">
+      <DependentUpon>FormTanarMessengerAdminTanar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanar\FormTanarMessengerSzuloTanar.resx">
+      <DependentUpon>FormTanarMessengerSzuloTanar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanar\FormTanarMessengerTanar.resx">
+      <DependentUpon>FormTanarMessengerTanar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanar\FormTanarMessengerTanarDiak.resx">
+      <DependentUpon>FormTanarMessengerTanarDiak.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tanar\FormTanarSzerepkor.resx">
       <DependentUpon>FormTanarSzerepkor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMatek.resx">
+      <DependentUpon>FormTanuloMatek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMessenger.resx">
+      <DependentUpon>FormTanuloMessenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMessengerAdminDiak.resx">
+      <DependentUpon>FormTanuloMessengerAdminDiak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMessengerDiak.resx">
+      <DependentUpon>FormTanuloMessengerDiak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMessengerSzuloDiak.resx">
+      <DependentUpon>FormTanuloMessengerSzuloDiak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloMessengerTanarDiak.resx">
+      <DependentUpon>FormTanuloMessengerTanarDiak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanulo\FormTanuloNemet.resx">
+      <DependentUpon>FormTanuloNemet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tanulo\FormTanuloSzerepkor.resx">
       <DependentUpon>FormTanuloSzerepkor.cs</DependentUpon>

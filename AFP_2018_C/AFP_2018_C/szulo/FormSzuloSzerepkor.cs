@@ -37,7 +37,7 @@ namespace AFP_2018_C
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Messenger messenger = new Messenger();
+            FormSzuloMessenger messenger = new FormSzuloMessenger();
             this.Hide();
             messenger.ShowDialog();
             this.Close();

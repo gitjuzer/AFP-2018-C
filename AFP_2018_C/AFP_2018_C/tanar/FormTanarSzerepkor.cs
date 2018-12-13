@@ -41,7 +41,7 @@ namespace AFP_2018_C
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Messenger messenger = new Messenger();
+            FormTanarMessenger messenger = new FormTanarMessenger();
             this.Hide();
             messenger.ShowDialog();
             this.Close();
