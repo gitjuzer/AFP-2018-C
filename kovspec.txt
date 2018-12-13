@@ -35,13 +35,14 @@
 
 5. Jelenlegi üzleti folyamatok modellje
 
-	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve meghatározzuk azokat a folyamatokat,
-	amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a következő tevékenységeket szoktuk elvégezni:
+	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve 	 	 meghatározzuk azokat a folyamatokat,
+	amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a következő tevékenységeket szoktuk 		elvégezni:
 
 	1.üzleti szereplő és munkatárs elemzés,
 	2.üzleti folyamat elemzés,
 	3.üzleti entitás elemzés,
 	4.üzleti folyamatok modellezése.
+	5.jelenlegi és jövőbeli üzleti folyamatok modellje
 
 6. Igényelt üzleti folyamatok modellje
 
@@ -100,10 +101,8 @@
 	Két  Business Use Case között kétféle kapcsolat lehet:
 		-extend,
 		-include.
-		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során,
-		ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
-		Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,
-		ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
+		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
+		Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,  ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
 
 	Üzleti folyamat lefutás (Business Use Case Realization): 
 		üzleti folyamat:
@@ -111,7 +110,7 @@
 			-üzleti szereplőinek, és 
 			-az üzleti entitások kapcsolatát.
 
-		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity   diagramokat               		úgynevezett  swimlane-ekre  osztjuk.
+		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity   diagramokat úgynevezett  swimlane-ekre  osztjuk.
 		Minden  swimlane-hez  rendelünk egy  üzleti  szereplőt.  Az  egyes 
 		swimlane-ekben a megadott üzleti szereplő tevékenységeit vesszük fel.
 
