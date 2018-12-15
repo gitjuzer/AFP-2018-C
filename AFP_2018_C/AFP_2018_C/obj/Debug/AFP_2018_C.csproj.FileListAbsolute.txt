@@ -168,3 +168,4 @@ C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug
 C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.csproj.CoreCompileInputs.cache
 C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.exe
 C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_C\obj\Debug\AFP_2018_C.pdb
+C:\Users\Szilvi\Desktop\project labor\AFP-2018-C\AFP_2018_C\AFP_2018_C\bin\Debug\Oracle.ManagedDataAccess.dll
