@@ -245,7 +245,7 @@
 			Elvárt működés: Az alsó harmadban lévő "Eredmények megtekintése" gonómra kattintva a fiókhoz rendelt Tanuló eredményei jelennek meg.
 		
 		
-	//tesztelési jegyzőkönyv sablonja
+	//tesztelési jegyzőkönyv sablonja//
 	Tesztelési folyamat leírása:
 	 A tesztelők megnyitják az alkalmazást a webes felületen és elkezdik normál user-ként használni.
 	 A felmerülő hibákat, esetleg nem várt viselkedést feljegyzik a jegyzőkönyvbe. 
