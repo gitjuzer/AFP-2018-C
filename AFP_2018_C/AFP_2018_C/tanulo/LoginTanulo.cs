@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AFP_2018_C.Database;
+using AFP_2018_C.Database.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,16 +23,23 @@ namespace AFP_2018_C
         private void button1_Click(object sender, EventArgs e)
         {
             label3.Text = "";
-            if (textBox_username.Text == "admin" && textBox_password.Text == "admin")
+
+            UsersTableManager manager = new UsersTableManager();
+            User user = manager.GetUser(this.textBox_username.Text, this.textBox_password.Text);
+            if (user != null)
             {
+                User.CurrentUser = user;
                 FormTanuloSzerepkor formTanuloSzerepkor = new FormTanuloSzerepkor();
                 this.Hide();
                 formTanuloSzerepkor.ShowDialog();
                 this.Close();
             }
-            label3.Text = "Sikertelen bejelentkezés!";
-            textBox_password.Text = "";
-            textBox_username.Text = "";
+            else
+            {
+                label3.Text = "Sikertelen bejelentkezés!";
+                textBox_password.Text = "";
+                textBox_username.Text = "";
+            }
         }
     }
 }

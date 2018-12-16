@@ -1,4 +1,5 @@
-﻿using Oracle.ManagedDataAccess.Client;
+﻿using AFP_2018_C.Database.Entities;
+using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,16 +18,17 @@ namespace AFP_2018_C.Database
             command.CommandText = "SELECT * FROM Users";
             command.Connection = getConnection();
 
-            OracleDataReader reader = command.ExecuteReader();
-            while (reader.Read())
+            using (OracleDataReader reader = command.ExecuteReader())
             {
-                User record = new User();
-                record.Username = reader["username"].ToString();
-                record.Password = reader["password"].ToString();
-                record.Szerepkor = reader["szerepkor"].ToString();
-                list.Add(record);
-            }
-            
+                while (reader.Read())
+                {
+                    User record = new User();
+                    record.Username = reader["username"].ToString();
+                    record.Password = reader["password"].ToString();
+                    record.Szerepkor = reader["szerepkor"].ToString();
+                    list.Add(record);
+                }
+            }         
 
             return list;
         }
@@ -74,6 +76,28 @@ namespace AFP_2018_C.Database
 
             command.Connection = getConnection();
             return command.ExecuteNonQuery() == -1;
+        }
+
+        public User GetUser(string username, string password)
+        {
+            OracleCommand command = new OracleCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "SELECT * FROM Users WHERE username = :username AND password = :password";
+            command.Connection = getConnection();
+
+            using (OracleDataReader reader = command.ExecuteReader())
+            {
+                User user = null;
+                if (reader.Read())
+                {
+                    user = new User();
+                    user.Username = reader["username"].ToString();
+                    user.Password = reader["password"].ToString();
+                    user.Szerepkor = reader["szerepkor"].ToString();
+                }
+            }
+
+            return null;
         }
     }
 }
