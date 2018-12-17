@@ -35,13 +35,21 @@
 
 5. Jelenlegi üzleti folyamatok modellje
 
-	Az üzleti folyamtok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti folyamatait, illetve 	 	 meghatározzuk azokat a folyamatokat,amelyeket a megrendelt informatikai rendszer támogatni fog.A modellezés során a 		következő tevékenységeket szoktuk elvégezni:
+	Jelenleg a program, iskoláknak, diákoknak, és szülőknek nyújt szolgáltatást. Az üzleti modell szerint a megrendelő kezdeményezi a tevékenységet. 	
+	Az üzlettel kapcsolatba kerülő emberek, a megrendelő, fejlesztők, és a vezetők. További üzleti szereplők: Hardver, szoftver beszállítók, könyvelést végző cég.
+	Az üzleti feladatok forgatókönyve kibővülhet olyan részfolyamatokkal is, amelyek nem kötelező érvényűek, és végrehajtásuk feltételhez kötött. Ilyen lehet egy 
+	egy később felmerülő probléma, amit egy későbbi fejlesztéssel lehet bővíteni.
 
-	1.üzleti szereplő és munkatárs elemzés,
-	2.üzleti folyamat elemzés,
-	3.üzleti entitás elemzés,
-	4.üzleti folyamatok modellezése.
-	5.jelenlegi és jövőbeli üzleti folyamatok modellje
+	A program létrejöttének folyamata: 
+	1. A megrendelő	felkeresi a céget
+	2. Megfogalmazza a kívánt terméket
+	3. A cég lefejleszti a kívánt programot
+	4. A cég közli a termék összegét
+	5. A megrendelő megkapja a számlát, és átveszi a szoftvert
+	
+	Jövőbeli üzleti folyamat célok, hogy webes online árúházban is kapható legyen a szoftver, mely egy teljesen más üzleti modellt igényel. 
+	Ebben a folyamatban, nem lenne megrendelő, hanem a vásárló fizetni a kész termékét. Ebben az esetben nem lenne szükséges több üzleti modellre. A szoftver 
+	kapható lehetne mobilos verzióban is, amelyel még több felhasználóhoz jutna el a program. 
 
 6. Igényelt üzleti folyamatok modellje
 
