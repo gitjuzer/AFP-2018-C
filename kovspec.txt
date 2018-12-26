@@ -10,12 +10,12 @@
 
 2. Vágyálomrendszer
 
-	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
+	 Egy olyan programot szeretnénk ami segítségével játékosan tanulhatnak a 12-éves korosztályba tartozó gyerekek. A program 3 szerepkört tartalmazzon Tanuló, 		Tanár, Szülő. Szererpkör szerint változzanak a funkciók, a Tanuló megoldja a feladatokat és látja az eredményeit, a Tanár értékel az eredmények alapján látja a 	csoportjához tartozó Tanulók eredményeit, a Szülő csak a saját gyerekének az eredményeit láthassa. 
 	 -Mi lehet a kérdés?- Megkapod a válaszokat találd ki a kérdést!
 	 -Pároztasd össze!- Nevek és események amiket össze kell pároztatni.
-	 5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekített szélű gombokkal rendelkezzen.
-	 A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
-	 Ezzel a programmal szeretnénk elérni hogy a tanulók -ha már úgy is a telefonjukon és a gépen lógnak- tanuljanak is valamit miközben szórakoztató tényekekkel bővül a tudásuk. Továbbá szüleik is kézben tudják tartani gyermekük iskolai teljesítményét.
+	5 percenként jelenjen meg a jobb sarokban egy figura egy buborékkal amiben érdekes tények vannak. Gyerekbarát kinézetet kapjon, legyen színes, lekerekített 		szélű gombokkal rendelkezzen.
+	A programnak legyen webes felülete ahol letölthetik a programot és legyen egy androidra letölthető applikáció is. 
+	Ezzel a programmal szeretnénk elérni hogy a tanulók -ha már úgy is a telefonjukon és a gépen lógnak- tanuljanak is valamit miközben szórakoztató tényekekkel 		bővül a tudásuk. Továbbá szüleik is kézben tudják tartani gyermekük iskolai teljesítményét.
 	 
 3. Követelmény lista
 
@@ -27,11 +27,11 @@
 
 4. Jelenlegi helyzet
 
-	Több oktatóprogram is van a piacon, ezek szinte minden területen oktatnak, korosztályonként változó nehézséggel, jó megoldást nyújthatnak otthoni, játékos tanulásra.
+	Több oktatóprogram is van a piacon, ezek szinte minden területen oktatnak, korosztályonként változó nehézséggel, jó megoldást nyújthatnak otthoni, játékos 		tanulásra.
 	Ilyen például a Profi-Média Kft. Manó oktatójáték sorozata (lásd: http://www.profi-media.com/kateg-3-1-mano-oktatoprogramok.html). 
 	Sok témában, inkább a kisebb korosztálynak oktat, sok mesét, beszélő elemeket tartalmaz. 
 	Egyetlen hátránya, ami egyben a legnagyobb hogy csak CD formátumban, Windows alá jelent meg. Így sem egy böngészőben, sem tableten nem lehet játszani vele.
-	Ami nagyon ritka ezekben a programokban, az a tanár-diák szerep, csak egyszemélyes felhasználás, így a diákok elért eredményeit sem tárolja, ami tanórai kereteken belül lehet hátrány.
+	Ami nagyon ritka ezekben a programokban, az a tanár-diák szerep, csak egyszemélyes felhasználás, így a diákok elért eredményeit sem tárolja, ami tanórai 		kereteken belül lehet hátrány.
 
 5. Jelenlegi üzleti folyamatok modellje
 
@@ -53,15 +53,15 @@
 
 6. Igényelt üzleti folyamatok modellje
 
-	Üzleti folyamatokat nem csak külső szereplők, hanem belső szereplők is használhatnak, azaz minden üzleti folyamatot fel kell venni, amit a szereplők az üzleti folyamat során végeznek.
+	Üzleti folyamatokat nem csak külső szereplők, hanem belső szereplők is használhatnak, azaz minden üzleti folyamatot fel kell venni, amit a szereplők az üzleti 		folyamat során végeznek.
 	Üzleti folyamat diagram (Business Use Case Diagram): Az  üzleti  folyamat 
 	diagramok megmutatják, hogy  mely  üzleti  szereplő  mely  üzleti  folyamatokat  használhatja.
-	A  Business  Use  Case  diagram  megmutatja  a  szereplők  és  a  Business  Use  Case-ek  kapcsolatait, valamint a Business Use Case-ek  egymás  közötti  kapcsolatait.  
+	A  Business  Use  Case  diagram  megmutatja  a  szereplők  és  a  Business  Use  Case-ek  kapcsolatait, valamint a Business Use Case-ek  egymás  közötti  		kapcsolatait.  
 	Egy  szereplő  és  Business  Use  Case között  akkor  van  kapcsolat,  ha  a  szereplő  kezdeményezheti  az  üzleti  folyamatot.
 	Két  Business Use Case között kétféle kapcsolat lehet:
 		-extend,
 		-include.
-	Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
+	Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B üzleti 		folyamat lesz végrehajtva.
 	Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,  ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
 	Üzleti folyamat lefutás (Business Use Case Realization): 
 	Egy  üzleti  folyamat  lefutás  megmutatja  az 
@@ -92,7 +92,7 @@
 		- az üzleti szereplőket, 
 		- az üzleti entitásokat,
 		- az üzleti folyamat lefutásokat,
-	továbbá  megmutatja  azt  is,  hogy  melyik  üzleti  szereplő  milyen  üzleti  folyamatokat  kezdeményez  és milyen üzleti folyamatokban vesz részt.
+		továbbá  megmutatja  azt  is,  hogy  melyik  üzleti  szereplő  milyen  üzleti  folyamatokat  kezdeményez  és milyen üzleti folyamatokban vesz részt.
 
 
 7. Fogalomszótár
@@ -102,13 +102,13 @@
 		valamely  üzleti  szereplő  vagy  üzleti  munkatárs  számára  értéket  termel.
 		Üzleti folyamat diagram (Business Use Case Diagram): Az  üzleti  folyamat 
 		diagramok megmutatják, hogy  mely  üzleti  szereplő  mely  üzleti  folyamatokat  használhatja.
-		A  Business  Use  Case  diagram  megmutatja  a  szereplők  és  a  Business  Use  Case-ek  kapcsolatait, valamint a Business Use Case-ek  egymás  közötti  kapcsolatait.  
+		A  Business  Use  Case  diagram  megmutatja  a  szereplők  és  a  Business  Use  Case-ek  kapcsolatait, valamint a Business Use Case-ek  egymás  		közötti  kapcsolatait.  
 		Egy  szereplő  és  Business  Use  Case között  akkor  van  kapcsolat,  ha  a  szereplő  kezdeményezheti  az  üzleti  folyamatot.
 	
 	Két  Business Use Case között kétféle kapcsolat lehet:
 		-extend,
 		-include.
-		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B üzleti folyamat lesz végrehajtva.
+		Extend kapcsolatról akkor beszélünk az A és a B üzleti folyamat között, ha az A üzleti folyamat során, ha bekövetkezik egy bizonyos esemény, akkor a B 		üzleti folyamat lesz végrehajtva.
 		Include  kapcsolatról  akkor  beszélünk  az  A  és  a  B  üzleti  folyamat  között,  ha  az  A  üzleti  folyamatnak része a B üzleti folyamat.
 
 	Üzleti folyamat lefutás (Business Use Case Realization): 
@@ -117,7 +117,7 @@
 			-üzleti szereplőinek, és 
 			-az üzleti entitások kapcsolatát.
 
-		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity   diagramokat úgynevezett  swimlane-ekre  osztjuk.
+		Az   üzleti   folyamatok   lefutását   Activity   diagramokkal   mutatjuk   meg.   Az   activity diagramokat úgynevezett  swimlane-ekre  osztjuk.
 		Minden  swimlane-hez  rendelünk egy  üzleti  szereplőt.  Az  egyes 
 		swimlane-ekben a megadott üzleti szereplő tevékenységeit vesszük fel.
 
@@ -126,7 +126,7 @@
 		vannak  és  interakcióba  lépnek  a  szervezet  üzleti  folyamataival.
 
 	Üzleti munkatárs (Business Worker): 
-		A  szervezetbeli  szerepköröket  azonosítja. A  vásárlás  üzleti folyamatban egy példa egy szerepkörre a pénztáros.
+		A  szervezetbeli  szerepköröket  azonosítja. A  vásárlás  üzleti folyamatban egy példa egy szerepkörre a 		pénztáros.
 
 	Üzleti entitások (Business Entity): 
 		Azok  a  dolgok,  amelyeket  az üzleti  munkatársak  használnak  az üzleti folyamatok  során.
@@ -134,10 +134,10 @@
 8. Családbarát felhasználói környezet
 	
 	A játékos oktató alkalmazásnak nevéből adódóan kötelező minden részben családbatártnak lenni.
-	Nem tartalmazhat semmiféle olyan beépülő modult vagy valamilyen más összetevőt ami a felhasználókra legyen az tanár/szülő
+	Nem tartalmazhat semmiféle olyan beépülő modult vagy valamilyen más összetevőt ami a felhasználókra legyen az 	tanár/szülő
 	vagy diák rossz hatással legyen.
 	
-	A családbarátiasságot más értelemben is gondolom amivel a bonyolult kezelői felületek és más egyéb részek kiszűrése a cél.
-	Legyen minél egyszerűbb a felhasználó számára, hogy minél hamarabb megtanulja mindenki az alkalmazás működését és lényegét.
+	A családbarátiasságot más értelemben is gondolom amivel a bonyolult kezelői felületek és más egyéb részek kiszűrése 	a cél.
+	Legyen minél egyszerűbb a felhasználó számára, hogy minél hamarabb megtanulja mindenki az alkalmazás működését és 	lényegét.
 	
 	A legnagyobb cél, hogy az otthoni talulást nagy mértékben segítse vagy helyettesítse.
