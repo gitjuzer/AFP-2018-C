@@ -130,3 +130,14 @@
 
 	Üzleti entitások (Business Entity): 
 		Azok  a  dolgok,  amelyeket  az üzleti  munkatársak  használnak  az üzleti folyamatok  során.
+		
+8. Családbarát felhasználói környezet
+	
+	A játékos oktató alkalmazásnak nevéből adódóan kötelező minden részben családbatártnak lenni.
+	Nem tartalmazhat semmiféle olyan beépülő modult vagy valamilyen más összetevőt ami a felhasználókra legyen az tanár/szülő
+	vagy diák rossz hatással legyen.
+	
+	A családbarátiasságot más értelemben is gondolom amivel a bonyolult kezelői felületek és más egyéb részek kiszűrése a cél.
+	Legyen minél egyszerűbb a felhasználó számára, hogy minél hamarabb megtanulja mindenki az alkalmazás működését és lényegét.
+	
+	A legnagyobb cél, hogy az otthoni talulást nagy mértékben segítse vagy helyettesítse.
