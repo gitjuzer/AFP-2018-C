@@ -1,4 +1,4 @@
-﻿Funkcionális specifikáció a Játékos oktatás projekthez.
+﻿Funkcionális specifikáció a Játékos Oktatás projekthez.
 
 1. Áttekintés
 
