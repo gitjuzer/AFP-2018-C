@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database
 {
-    class BaseDatabaseManager
+    public class BaseDatabaseManager
     {
-        protected BaseDatabaseManager() { }
+        public BaseDatabaseManager() { }
 
         protected OracleConnection getConnection()
         {

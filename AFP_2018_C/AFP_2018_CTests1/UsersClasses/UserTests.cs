@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AFP_2018_C.Database.Entities;
 
 namespace AFP_2018_C.Tests
 {

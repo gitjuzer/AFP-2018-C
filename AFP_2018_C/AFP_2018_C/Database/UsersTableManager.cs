@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database
 {
-    class UsersTableManager : BaseDatabaseManager
+    public class UsersTableManager : BaseDatabaseManager
     {
         public List<User> SelectAll()
         {
@@ -85,9 +85,23 @@ namespace AFP_2018_C.Database
             command.CommandText = "SELECT * FROM Users WHERE username = :username AND password = :password";
             command.Connection = getConnection();
 
+            OracleParameter p_username = new OracleParameter();
+            p_username.ParameterName = ":username";
+            p_username.DbType = System.Data.DbType.String;
+            p_username.Value = username;
+            command.Parameters.Add(p_username);
+
+            OracleParameter p_password = new OracleParameter();
+            p_password.ParameterName = ":password";
+            p_password.DbType = System.Data.DbType.String;
+            p_password.Value = password;
+            command.Parameters.Add(p_password);
+
+            User user;
+
             using (OracleDataReader reader = command.ExecuteReader())
             {
-                User user = null;
+                
                 if (reader.Read())
                 {
                     user = new User();
@@ -95,9 +109,17 @@ namespace AFP_2018_C.Database
                     user.Password = reader["password"].ToString();
                     user.Szerepkor = reader["szerepkor"].ToString();
                 }
+                else
+                {
+                    user = null;
+                }
+
+
+                return user;
             }
 
-            return null;
         }
+
+        public UsersTableManager() { }
     }
 }

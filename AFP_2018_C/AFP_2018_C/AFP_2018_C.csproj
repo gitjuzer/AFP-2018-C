@@ -50,7 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\BaseDatabaseManager.cs" />
+    <Compile Include="Database\MathAnswer.cs" />
+    <Compile Include="Database\MathQuestion.cs" />
     <Compile Include="Database\MathQuestionsManager.cs" />
+    <Compile Include="Database\User.cs" />
     <Compile Include="Database\UsersTableManager.cs" />
     <Compile Include="FormSzerepkor.cs">
       <SubType>Form</SubType>
@@ -234,7 +237,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
     <EmbeddedResource Include="FormSzerepkor.resx">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </EmbeddedResource>
