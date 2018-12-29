@@ -50,10 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\BaseDatabaseManager.cs" />
-    <Compile Include="Database\MathAnswer.cs" />
-    <Compile Include="Database\MathQuestion.cs" />
+    <Compile Include="Database\Entities\MathAnswer.cs" />
+    <Compile Include="Database\Entities\MathQuestion.cs" />
+    <Compile Include="Database\Entities\User.cs" />
     <Compile Include="Database\MathQuestionsManager.cs" />
-    <Compile Include="Database\User.cs" />
     <Compile Include="Database\UsersTableManager.cs" />
     <Compile Include="FormSzerepkor.cs">
       <SubType>Form</SubType>
