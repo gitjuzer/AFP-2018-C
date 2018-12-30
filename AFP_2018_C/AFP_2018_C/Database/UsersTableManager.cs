@@ -28,7 +28,7 @@ namespace AFP_2018_C.Database
                     record.Szerepkor = reader["szerepkor"].ToString();
                     list.Add(record);
                 }
-            }         
+            }
 
             return list;
         }
@@ -37,7 +37,7 @@ namespace AFP_2018_C.Database
         {
             OracleCommand command = new OracleCommand();
             command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "INSERT INTO users(username,password,szerepkor) VALUES(:username,:password,:szerepkor);";
+            command.CommandText = "INSERT INTO users(username,password,szerepkor) VALUES(:username,:password,:szerepkor)";
 
             OracleParameter username = new OracleParameter();
             username.ParameterName = ":username";
@@ -66,7 +66,7 @@ namespace AFP_2018_C.Database
         {
             OracleCommand command = new OracleCommand();
             command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "DELETE FROM Users WHERE username = :username;";
+            command.CommandText = "DELETE FROM Users WHERE username = :username";
 
             OracleParameter username = new OracleParameter();
             username.ParameterName = ":username";
@@ -97,29 +97,45 @@ namespace AFP_2018_C.Database
             p_password.Value = password;
             command.Parameters.Add(p_password);
 
-            User user;
+            User user = null;
 
-            using (OracleDataReader reader = command.ExecuteReader())
+            OracleDataReader reader = command.ExecuteReader();
+            if(reader.Read())
             {
-                
-                if (reader.Read())
-                {
-                    user = new User();
-                    user.Username = reader["username"].ToString();
-                    user.Password = reader["password"].ToString();
-                    user.Szerepkor = reader["szerepkor"].ToString();
-                }
-                else
-                {
-                    user = null;
-                }
-
-
-                return user;
+                user = new User();
+                user.Username = reader["username"].ToString();
+                user.Password = reader["password"].ToString();
+                user.Szerepkor = reader["szerepkor"].ToString();
             }
 
+            return user;
         }
 
-        public UsersTableManager() { }
+        public User GetUser(string username)
+        {
+            OracleCommand command = new OracleCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "SELECT * FROM Users WHERE username = :username";
+            command.Connection = getConnection();
+
+            OracleParameter p_username = new OracleParameter();
+            p_username.ParameterName = ":username";
+            p_username.DbType = System.Data.DbType.String;
+            p_username.Value = username;
+            command.Parameters.Add(p_username);
+
+            User user = null;
+
+            OracleDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                user = new User();
+                user.Username = reader["username"].ToString();
+                user.Password = reader["password"].ToString();
+                user.Szerepkor = reader["szerepkor"].ToString();
+            }
+
+            return user;
+        }
     }
 }

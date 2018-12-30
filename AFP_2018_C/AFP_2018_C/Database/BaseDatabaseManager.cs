@@ -13,7 +13,7 @@ namespace AFP_2018_C.Database
 
         protected OracleConnection getConnection()
         {
-            string connString = @"Data Source = 193.225.33.71; User Id = HQFTAD; Password = szelektcsillag;";
+            string connString = @"Data Source=193.225.33.71;User Id=HQFTAD;Password=szelektcsillag;";
             OracleConnection connection = new OracleConnection(connString);
             connection.Open();
             return connection;

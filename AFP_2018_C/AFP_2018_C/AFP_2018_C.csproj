@@ -61,6 +61,12 @@
     <Compile Include="FormSzerepkor.Designer.cs">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Regisztracio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regisztracio.Designer.cs">
+      <DependentUpon>Regisztracio.cs</DependentUpon>
+    </Compile>
     <Compile Include="szulo\FormSzuloMessengerAdminSzulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,6 +245,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormSzerepkor.resx">
       <DependentUpon>FormSzerepkor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regisztracio.resx">
+      <DependentUpon>Regisztracio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="szulo\FormSzuloMessengerAdminSzulo.resx">
       <DependentUpon>FormSzuloMessengerAdminSzulo.cs</DependentUpon>

@@ -26,6 +26,7 @@ namespace AFP_2018_C
 
             UsersTableManager manager = new UsersTableManager();
             User user = manager.GetUser(this.textBox_username.Text, this.textBox_password.Text);
+            //User user = new User("admin", "admin1231231231");
             if (user != null)
             {
                 User.CurrentUser = user;
@@ -40,6 +41,22 @@ namespace AFP_2018_C
                 textBox_password.Text = "";
                 textBox_username.Text = "";
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            UsersTableManager manager = new UsersTableManager();
+            List<User> list = manager.SelectAll();
+            for(int i = 0; i < list.Count; i++)
+            {
+                MessageBox.Show(list[i].Username+" " + list[i].Password + " " + list[i].Szerepkor);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Regisztracio regisztracio = new Regisztracio();
+            regisztracio.ShowDialog();
         }
     }
 }

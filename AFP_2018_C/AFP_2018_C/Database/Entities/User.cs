@@ -53,10 +53,10 @@ namespace AFP_2018_C.Database.Entities
             get { return szerepkor; }
             set
             {
-                if (value == null)
+                /*if (value == null)
                     throw new NullReferenceException();
                 if (value != "admin" || value != "tanulo" || value != "tanar" || value != "szulo")
-                    throw new Exception();
+                    throw new Exception();*/
                 szerepkor = value;
             }
         }
@@ -82,6 +82,13 @@ namespace AFP_2018_C.Database.Entities
         {
             Username = username;
             Password = password;
+        }
+
+        public User(string username, string password,string szerepkor)
+        {
+            Username = username;
+            Password = password;
+            Szerepkor = szerepkor;
         }
 
         public User() { }
