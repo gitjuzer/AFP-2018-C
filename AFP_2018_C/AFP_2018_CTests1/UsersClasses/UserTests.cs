@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AFP_2018_C.Database.Entities;
+using AFP_2018_C.Database;
 
 namespace AFP_2018_C.Tests
 {
@@ -54,6 +55,23 @@ namespace AFP_2018_C.Tests
         {
             string password = "012345678901234567890123456789012";
             User user = new User("username", password);
+        }
+        [TestMethod]
+        public void MathQuestionsAll()
+        {
+            MathQuestion expected = new MathQuestion();
+            expected.Text = "test";
+            expected.Score = 1;
+            expected.Answers = new List<MathAnswer>()
+            {
+                new MathAnswer("valasz1", false),
+                new MathAnswer("valasz2", true)
+            };
+
+            MathQuestionsManager manager = new MathQuestionsManager();
+            MathQuestion actual = manager.Select(1);
+
+            Assert.AreEqual(expected, actual);
         }
     }
 }
