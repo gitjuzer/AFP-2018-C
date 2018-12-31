@@ -61,5 +61,13 @@ namespace AFP_2018_C
             Regisztracio regisztracio = new Regisztracio();
             regisztracio.ShowDialog();
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            FormSzerepkor formSzerepkor = new FormSzerepkor();
+            this.Hide();
+            formSzerepkor.ShowDialog();
+            this.Close();
+        }
     }
 }
