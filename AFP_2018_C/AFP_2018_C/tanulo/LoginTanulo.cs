@@ -26,14 +26,17 @@ namespace AFP_2018_C
 
             UsersTableManager manager = new UsersTableManager();
             User user = manager.GetUser(this.textBox_username.Text, this.textBox_password.Text);
-            //User user = new User("admin", "admin1231231231");
             if (user != null)
             {
-                User.CurrentUser = user;
-                FormTanuloSzerepkor formTanuloSzerepkor = new FormTanuloSzerepkor();
-                this.Hide();
-                formTanuloSzerepkor.ShowDialog();
-                this.Close();
+                if (user.Szerepkor == "Tanulo")
+                {
+                    User.CurrentUser = user;
+                    FormTanuloSzerepkor formTanuloSzerepkor = new FormTanuloSzerepkor();
+                    this.Hide();
+                    formTanuloSzerepkor.ShowDialog();
+                    this.Close();
+                }
+                else { MessageBox.Show("Hozzáférés megtagadva!"); }
             }
             else
             {
