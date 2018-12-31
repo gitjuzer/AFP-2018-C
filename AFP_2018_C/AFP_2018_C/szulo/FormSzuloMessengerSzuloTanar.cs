@@ -40,7 +40,7 @@ namespace AFP_2018_C
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormTanarMessenger formSzerepkor = new FormTanarMessenger();
+            FormSzuloMessenger formSzerepkor = new FormSzuloMessenger();
             this.Hide();
             formSzerepkor.ShowDialog();
             this.Close();
