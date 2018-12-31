@@ -39,7 +39,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(328, 332);
+            this.button1.Location = new System.Drawing.Point(329, 339);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 35);
             this.button1.TabIndex = 0;
@@ -50,14 +50,14 @@
             // Chat
             // 
             this.Chat.FormattingEnabled = true;
-            this.Chat.Location = new System.Drawing.Point(37, 55);
+            this.Chat.Location = new System.Drawing.Point(38, 56);
             this.Chat.Name = "Chat";
             this.Chat.Size = new System.Drawing.Size(391, 173);
             this.Chat.TabIndex = 1;
             // 
             // Szoveg
             // 
-            this.Szoveg.Location = new System.Drawing.Point(37, 279);
+            this.Szoveg.Location = new System.Drawing.Point(38, 273);
             this.Szoveg.Name = "Szoveg";
             this.Szoveg.Size = new System.Drawing.Size(391, 20);
             this.Szoveg.TabIndex = 2;
@@ -65,7 +65,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(37, 332);
+            this.button2.Location = new System.Drawing.Point(38, 339);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 35);
             this.button2.TabIndex = 9;
@@ -77,7 +77,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.label1.Location = new System.Drawing.Point(34, 260);
+            this.label1.Location = new System.Drawing.Point(35, 254);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 10;
@@ -87,7 +87,7 @@
             // 
             this.Messenger.AutoSize = true;
             this.Messenger.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.Messenger.Location = new System.Drawing.Point(34, 26);
+            this.Messenger.Location = new System.Drawing.Point(35, 28);
             this.Messenger.Name = "Messenger";
             this.Messenger.Size = new System.Drawing.Size(79, 16);
             this.Messenger.TabIndex = 11;
