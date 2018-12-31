@@ -56,6 +56,36 @@ namespace AFP_2018_C.Database
 
         }
 
+        public MathQuestion Select(int index)
+        {
+            OracleCommand command = new OracleCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "SELECT * FROM MATHQUESTIONS " +
+                "WHERE id=:id";
+
+            OracleParameter id = new OracleParameter();
+            id.ParameterName = ":id";
+            id.DbType = System.Data.DbType.Int32;
+            id.Value = index;
+            command.Parameters.Add(id);
+
+            command.Connection = this.getConnection();
+
+            MathQuestion question = null;
+
+            OracleDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                question = new MathQuestion();
+                question.Text = reader["text"].ToString();
+                question.Score = int.Parse(reader["score"].ToString());
+                //TODO a valaszok listava alakitasa kell meg
+                question.Answers = new List<MathAnswer>();
+            }
+
+            return question;
+        }
+
         public bool Delete(int id)
         {
             OracleCommand command = new OracleCommand();
