@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database
 {
-    class MathQuestionsManager:BaseDatabaseManager
+    public class MathQuestionsManager:BaseDatabaseManager
     {
         public List<MathQuestion> SelectAll()
         {

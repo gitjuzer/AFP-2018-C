@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database.Entities
 {
-    class MathQuestion
+    public class MathQuestion
     {
         private string text;
         private int score;
@@ -48,6 +48,7 @@ namespace AFP_2018_C.Database.Entities
 
         public List<MathAnswer> Answers
         {
+            set { answers = value; }
             get
             {
                 return this.answers;

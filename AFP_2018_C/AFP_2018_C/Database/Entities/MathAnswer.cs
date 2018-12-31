@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database.Entities
 {
-    class MathAnswer
+   public  class MathAnswer
     {
         private string text;
         private bool isCorrect;
