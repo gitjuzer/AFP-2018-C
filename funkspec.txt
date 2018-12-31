@@ -4,8 +4,9 @@
 
     A program elsődleges célja az oktatás, méghozzá olyan formában ami egyszerre szórakoztatja a tanulót, ezáltal nagyobb hatást érünk el mint a szokásos tankönyvi anyaggal.
     Az alkalmazás külön szerepkörökre osztja a felhasználókat. Minden szerepkörnek megvannak a sajátosságai amihez hozzáférhetnek.
-    Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket, megjegyzéseket fűzhet hozzá vagy összeállíthat új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz.
-    A feladatsorokat nyilvánossá tehetjük vagy lekorlátozhatjuk külön emberekre vagy csoportokra. 
+    Például a tanár hozzáférhet a tanulók elkészített feladataihoz és értékelheti őket, megjegyzéseket fűzhet hozzá vagy összeállíthat 
+    új feladatsorokat, a tanuló megnézheti a kapott értékeléseket ill. hozzáfér a feladatsorokhoz. A feladatsorokat nyilvánossá tehetjük vagy lekorlátozhatjuk 
+    külön emberekre vagy csoportokra.  A szülők követhetik gyermekük eredményeit, feladatait, láthatják a tanárok üzeneteit vagy ők is üzenhetnek a tanároknak.
 
 2. Terjedelem
 

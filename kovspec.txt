@@ -6,7 +6,8 @@
 	A tanárok is nagy hasznát vehetik, ha egy-egy órába beépítve alkalmazzák sokkal nagyobb figyelmet érhetnek el mint az unalmas tankönyvi szöveggel.
 	Emellett természetesen otthoni tanulásra/gyakorlásra is tökéletesen alkalmas. Akár külön jutalmazási rendszer is felépíthető az alkalmazás
 	köré, hogy még több motivációt érjünk el a tanulóknál. A program rendelkezik több különféle játéklehetőséggel így mindenki megtalálhatja
-	a számára legalkalmasabbat. A program könnyen kezelhető, így bárki hamar elsajátíthatja a használatát.
+	a számára legalkalmasabbat. A program könnyen kezelhető, így bárki hamar elsajátíthatja a használatát. A szülők nyomon követhetik gyermekeik eredményeit, megoldásait vagy
+	kommunikálhatnak a tanáraikkal. Akár ők maguk is írhatnak megjegyzéseket a feladatokhoz vagy üzenhetnek a tanároknak.
 
 2. Vágyálomrendszer
 

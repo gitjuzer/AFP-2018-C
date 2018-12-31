@@ -26,14 +26,17 @@ namespace AFP_2018_C
 
             UsersTableManager manager = new UsersTableManager();
             User user = manager.GetUser(this.textBox_username.Text, this.textBox_password.Text);
-            //User user = new User("admin", "admin1231231231");
             if (user != null)
             {
-                User.CurrentUser = user;
-                FormTanuloSzerepkor formTanuloSzerepkor = new FormTanuloSzerepkor();
-                this.Hide();
-                formTanuloSzerepkor.ShowDialog();
-                this.Close();
+                if (user.Szerepkor == "Tanulo")
+                {
+                    User.CurrentUser = user;
+                    FormTanuloSzerepkor formTanuloSzerepkor = new FormTanuloSzerepkor();
+                    this.Hide();
+                    formTanuloSzerepkor.ShowDialog();
+                    this.Close();
+                }
+                else { MessageBox.Show("Hozzáférés megtagadva!"); }
             }
             else
             {
@@ -57,6 +60,14 @@ namespace AFP_2018_C
         {
             Regisztracio regisztracio = new Regisztracio();
             regisztracio.ShowDialog();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            FormSzerepkor formSzerepkor = new FormSzerepkor();
+            this.Hide();
+            formSzerepkor.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AFP_2018_C.Database;
+using AFP_2018_C.Database.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,16 +23,41 @@ namespace AFP_2018_C
         private void button1_Click(object sender, EventArgs e)
         {
             label3.Text = "";
-            if (textBox_username.Text == "admin" && textBox_password.Text == "admin")
+
+            UsersTableManager manager = new UsersTableManager();
+            User user = manager.GetUser(this.textBox_username.Text, this.textBox_password.Text);
+            if (user != null)
             {
-                FormTanarSzerepkor formTanarSzerepkor = new FormTanarSzerepkor();
-                this.Hide();
-                formTanarSzerepkor.ShowDialog();
-                this.Close();
+                if (user.Szerepkor == "Tanar")
+                {
+                    User.CurrentUser = user;
+                    FormTanarSzerepkor formTanarSzerepkor = new FormTanarSzerepkor();
+                    this.Hide();
+                    formTanarSzerepkor.ShowDialog();
+                    this.Close();
+                }
+                else { MessageBox.Show("Hozzáférés megtagadva!"); }
             }
-            label3.Text = "Sikertelen bejelentkezés!";
-            textBox_password.Text = "";
-            textBox_username.Text = "";
+            else
+            {
+                label3.Text = "Sikertelen bejelentkezés!";
+                textBox_password.Text = "";
+                textBox_username.Text = "";
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Regisztracio regisztracio = new Regisztracio();
+            regisztracio.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormSzerepkor formSzerepkor = new FormSzerepkor();
+            this.Hide();
+            formSzerepkor.ShowDialog();
+            this.Close();
         }
     }
 }
