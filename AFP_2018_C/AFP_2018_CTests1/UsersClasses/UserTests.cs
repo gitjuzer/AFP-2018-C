@@ -60,16 +60,18 @@ namespace AFP_2018_C.Tests
         public void MathQuestionsAll()
         {
             MathQuestion expected = new MathQuestion();
-            expected.Text = "test";
+            expected.Text = "Melyik Pitagorasz tétele:";
             expected.Score = 1;
             expected.Answers = new List<MathAnswer>()
             {
-                new MathAnswer("valasz1", false),
-                new MathAnswer("valasz2", true)
+                new MathAnswer("A befogók négzetének összege egyenl? az átfogó négyzetével.", true),
+                new MathAnswer("A befogók négzetének szorzata egyenl? az átfogó négyzetével.", false),
+                new MathAnswer("A befogók négzetének különbsége egyenl? az átfogó négyzetével.", false)
             };
+            
 
             MathQuestionsManager manager = new MathQuestionsManager();
-            MathQuestion actual = manager.Select(1);
+            MathQuestion actual = manager.Select(0);
 
             Assert.AreEqual(expected, actual);
         }
