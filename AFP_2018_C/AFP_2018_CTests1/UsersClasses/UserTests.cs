@@ -73,5 +73,25 @@ namespace AFP_2018_C.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void EnvironmentalQuestionsAll()
+        {
+            EnvironmentalQuestion expected = new EnvironmentalQuestion();
+            expected.Text = "test";
+            expected.Score = 2;
+            expected.Answers = new List<EnvironmentalAnswer>()
+            {
+                new EnvironmentalAnswer("valasz1", false),
+                new EnvironmentalAnswer("valasz2", false),
+                new EnvironmentalAnswer("valasz3", true),
+                new EnvironmentalAnswer("valasz4", false)
+            };
+
+            EnvironmentalQuestionsManager manager = new EnvironmentalQuestionsManager();
+            EnvironmentalQuestion actual = manager.Select(2);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

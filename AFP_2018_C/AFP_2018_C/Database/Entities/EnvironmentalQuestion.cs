@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database.Entities
 {
-    class EnvironmentalQuestion
+    public class EnvironmentalQuestion
     {
         private string text;
         private int score;
@@ -48,6 +48,11 @@ namespace AFP_2018_C.Database.Entities
             {
                 return this.answers;
             }
+            set
+            {
+                answers = value;
+            }
+            
         }
 
         public EnvironmentalQuestion()

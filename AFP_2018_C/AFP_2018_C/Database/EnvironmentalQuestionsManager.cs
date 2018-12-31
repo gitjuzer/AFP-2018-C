@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database
 {
-    class EnvironmentalQuestionsManager : BaseDatabaseManager
+    public class EnvironmentalQuestionsManager : BaseDatabaseManager
     {
         public List<EnvironmentalQuestion> SelectAll()
         {
@@ -31,6 +31,36 @@ namespace AFP_2018_C.Database
             }
 
             return list;
+        }
+
+        public EnvironmentalQuestion Select(int index)
+        {
+            OracleCommand command = new OracleCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "SELECT * FROM ENVIRONMENTALQUESTIONS " +
+                "WHERE id=:id";
+
+            OracleParameter id = new OracleParameter();
+            id.ParameterName = ":id";
+            id.DbType = System.Data.DbType.Int32;
+            id.Value = index;
+            command.Parameters.Add(id);
+
+            command.Connection = this.getConnection();
+
+            EnvironmentalQuestion question = null;
+
+            OracleDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                question = new EnvironmentalQuestion();
+                question.Text = reader["text"].ToString();
+                question.Score = int.Parse(reader["score"].ToString());
+                //TODO a valaszok listava alakitasa kell meg
+                question.Answers = new List<EnvironmentalAnswer>();
+            }
+
+            return question;
         }
 
         public bool Insert(EnvironmentalQuestion question)

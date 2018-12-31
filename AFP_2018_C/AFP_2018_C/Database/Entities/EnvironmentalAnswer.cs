@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFP_2018_C.Database.Entities
 {
-    class EnvironmentalAnswer
+    public class EnvironmentalAnswer
     {
         private string text;
         private bool isCorrect;
