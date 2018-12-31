@@ -45,5 +45,10 @@ namespace AFP_2018_C
         {
 
         }
+
+        private void FormTanarMessengerAdminTanar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

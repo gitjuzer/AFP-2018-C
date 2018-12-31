@@ -108,6 +108,7 @@
             this.Controls.Add(this.button1);
             this.Name = "FormTanarMessengerAdminTanar";
             this.Text = "Admin - Tanár szoba";
+            this.Load += new System.EventHandler(this.FormTanarMessengerAdminTanar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
